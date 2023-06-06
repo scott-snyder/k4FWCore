@@ -1,0 +1,8 @@
+Bottom: c288a192dab1d0f2bf0dbc0ecde93ae3b5b6c752
+Top:    c288a192dab1d0f2bf0dbc0ecde93ae3b5b6c752
+Author: scott snyder <sss@karma>
+Date:   2023-06-06 07:45:00 -0400
+
+Fix compilation with gcc13.
+
+Destructor name should not include template args.
