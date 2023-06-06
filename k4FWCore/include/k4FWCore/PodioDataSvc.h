@@ -1,6 +1,8 @@
 #ifndef FWCORE_PODIODATASVC_H
 #define FWCORE_PODIODATASVC_H
 
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
 #include "GaudiKernel/DataSvc.h"
 #include "GaudiKernel/IConversionSvc.h"
 // PODIO
