@@ -5,4 +5,13 @@ Date:   2023-06-06 07:45:00 -0400
 
 Fix compilation with gcc13.
 
-Destructor name should not include template args.
+Compiling with gcc version 13.1.1 20230519 on Fedora 38, i get an error:
+
+```
+In file included from /home/sss/fcc/soft/k4FWCore/k4FWCore/src/PodioDataSvc.cpp:6:
+/home/sss/fcc/soft/k4FWCore/k4FWCore/include/k4FWCore/DataWrapper.h:32:36: error: template-id not allowed for destructor
+   32 | template <class T> DataWrapper<T>::~DataWrapper<T>() {
+      |                                    ^
+```
+
+This fixes the error.

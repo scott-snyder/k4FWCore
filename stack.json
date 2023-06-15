@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "bb6a83626106620c50d67ee2635662390e552b48",
-  "head": "3013b5581cdd5bbe66a9e68cf07f56eded2f9301",
+  "prev": "79f1e056156a80df63c8f9aa41b7fa473e4dba05",
+  "head": "5572caee756d0781381694b20a995e15baea9816",
   "applied": [
     "depr",
     "gcc13"
@@ -13,7 +13,7 @@
       "oid": "b88fa4c56f8045bd32243d0fa156e70ae4431413"
     },
     "gcc13": {
-      "oid": "3013b5581cdd5bbe66a9e68cf07f56eded2f9301"
+      "oid": "5572caee756d0781381694b20a995e15baea9816"
     }
   }
 }
