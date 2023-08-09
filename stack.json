@@ -1,10 +1,11 @@
 {
   "version": 5,
-  "prev": "79f1e056156a80df63c8f9aa41b7fa473e4dba05",
-  "head": "5572caee756d0781381694b20a995e15baea9816",
+  "prev": "31f29bb82ba46364dbd23dd016191da2d40502bc",
+  "head": "7e06253f73aed8d19f616f23376e619d14619926",
   "applied": [
     "depr",
-    "gcc13"
+    "gcc13",
+    "subdet"
   ],
   "unapplied": [],
   "hidden": [],
@@ -14,6 +15,9 @@
     },
     "gcc13": {
       "oid": "5572caee756d0781381694b20a995e15baea9816"
+    },
+    "subdet": {
+      "oid": "7e06253f73aed8d19f616f23376e619d14619926"
     }
   }
 }
