@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "5ab6a9176de19bd74eeaf9fcf2a709c38960707b",
-  "head": "a193730ad9f2626add6ad381cfd5dd071ef57caf",
+  "prev": "29c59b8e7a804c2d7618ee5b535cab6651591b77",
+  "head": "1f2c6db56c20a377b32fa6de1188611f9eed88a2",
   "applied": [
     "depr",
     "gcc13",
-    "subdet",
-    "refresh-temp"
+    "subdet"
   ],
   "unapplied": [],
   "hidden": [],
@@ -18,10 +17,7 @@
       "oid": "5572caee756d0781381694b20a995e15baea9816"
     },
     "subdet": {
-      "oid": "7e06253f73aed8d19f616f23376e619d14619926"
-    },
-    "refresh-temp": {
-      "oid": "a193730ad9f2626add6ad381cfd5dd071ef57caf"
+      "oid": "1f2c6db56c20a377b32fa6de1188611f9eed88a2"
     }
   }
 }
