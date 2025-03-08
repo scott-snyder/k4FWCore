@@ -1,6 +1,0 @@
-Bottom: 92dd1404e1f11ddf0df901d4b68a855435ae14d7
-Top:    5aa88bd01ed5ccbb6504bcbe62135e40c0bdd830
-Author: scott snyder <sss@karma>
-Date:   2025-03-03 15:15:36 -0500
-
-Suppress podio deprecation warnings for now.
