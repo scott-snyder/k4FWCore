@@ -1,0 +1,8 @@
+Bottom: b2524fb4b0d5e5f0cf2b6edd0e333f03ae38d0d3
+Top:    b2524fb4b0d5e5f0cf2b6edd0e333f03ae38d0d3
+Author: sss <sss@karma>
+Date:   2025-04-11 15:22:59 -0400
+
+Make all methods of ICaloReadCrosstalkMap const.
+
+Calo components cleanup.
