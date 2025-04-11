@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Key4hep-Project.
+ * Copyright (c) 2014-2025 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -33,8 +33,8 @@ class INoiseConstTool : virtual public IAlgTool {
 public:
   DeclareInterfaceID(INoiseConstTool, 1, 0);
 
-  virtual double getNoiseRMSPerCell(uint64_t aCellID)    = 0;
-  virtual double getNoiseOffsetPerCell(uint64_t aCellID) = 0;
+  virtual double getNoiseRMSPerCell(uint64_t aCellID)    const = 0;
+  virtual double getNoiseOffsetPerCell(uint64_t aCellID) const = 0;
 };
 
 #endif /* RECINTERFACE_INOISECONSTTOOL_H */
