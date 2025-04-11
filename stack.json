@@ -1,15 +1,19 @@
 {
   "version": 5,
-  "prev": "fe0faaea26eab7f70364eca252d934046df09cbb",
-  "head": "53f87b0e410a35f5d5ca3f9fe4ea4cc82b35391b",
+  "prev": "cc7b94a58f3309ef118bc6b91d2d876d0439730b",
+  "head": "726e8e6368f76097c136536e750c5ad480956f28",
   "applied": [
-    "cellPositionsConst"
+    "cellPositionsConst",
+    "noiseConst"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "cellPositionsConst": {
       "oid": "53f87b0e410a35f5d5ca3f9fe4ea4cc82b35391b"
+    },
+    "noiseConst": {
+      "oid": "726e8e6368f76097c136536e750c5ad480956f28"
     }
   }
 }

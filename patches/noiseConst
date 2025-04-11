@@ -1,0 +1,8 @@
+Bottom: 44f62a9fdeb6c056df4054d9d8142700ff80b97f
+Top:    44f62a9fdeb6c056df4054d9d8142700ff80b97f
+Author: sss <sss@karma>
+Date:   2025-04-11 14:36:04 -0400
+
+Make all methods of INoiseCaloCellsTool and INoiseConstTool const.
+
+Calo components cleanup.
