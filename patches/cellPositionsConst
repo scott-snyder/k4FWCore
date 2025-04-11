@@ -1,0 +1,7 @@
+Bottom: 92dd1404e1f11ddf0df901d4b68a855435ae14d7
+Top:    92dd1404e1f11ddf0df901d4b68a855435ae14d7
+Author: sss <sss@karma>
+Date:   2025-04-11 13:41:42 -0400
+
+Calo components cleanup:
+Make all methods of ICellPositionsTool const.
