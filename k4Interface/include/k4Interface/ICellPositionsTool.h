@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Key4hep-Project.
+ * Copyright (c) 2014-2025 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -43,10 +43,10 @@ public:
   DeclareInterfaceID(ICellPositionsTool, 1, 0);
 
   virtual void getPositions(const edm4hep::CalorimeterHitCollection& aCells,
-                            edm4hep::CalorimeterHitCollection& outputColl) = 0;
+                            edm4hep::CalorimeterHitCollection& outputColl) const = 0;
 
   virtual dd4hep::Position xyzPosition(const uint64_t& aCellId) const = 0;
-  virtual int layerId(const uint64_t& aCellId) = 0;
+  virtual int layerId(const uint64_t& aCellId) const = 0;
 };
 
 #endif /* RECINTERFACE_ICELLPOSITIONSTOOL_H */
