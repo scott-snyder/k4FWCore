@@ -1,0 +1,8 @@
+Bottom: 888fde16951302eec2287a9ac744027412cfd944
+Top:    888fde16951302eec2287a9ac744027412cfd944
+Author: sss <sss@karma>
+Date:   2025-04-11 14:48:16 -0400
+
+Make all methods of ICalibrateCaloHitsTool const.
+
+Calo components cleanup.
