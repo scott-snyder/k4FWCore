@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Key4hep-Project.
+ * Copyright (c) 2014-2025 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -34,7 +34,7 @@ class ICalibrateCaloHitsTool : virtual public IAlgTool {
 public:
   DeclareInterfaceID(ICalibrateCaloHitsTool, 1, 0);
 
-  virtual void calibrate(std::unordered_map<uint64_t, double>& aHits) = 0;
+  virtual void calibrate(std::unordered_map<uint64_t, double>& aHits) const = 0;
 };
 
 #endif /* RECINTERFACE_ICALIBRATECALOHITSTOOL_H */
