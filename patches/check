@@ -1,0 +1,9 @@
+Bottom: fcbadf2f540f2e1091ce236abaeee21ab40b79ad
+Top:    fcbadf2f540f2e1091ce236abaeee21ab40b79ad
+Author: sss <sss@karma>
+Date:   2025-04-16 16:48:45 -0400
+
+Add K4_CHECK macro.
+
+Add a macro to reduce repetitive code involved in checking for error
+return statuses in Gaudi components.

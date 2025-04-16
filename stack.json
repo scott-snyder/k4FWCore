@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "d65d0018f242d2b05aaf09e7c5070a6c066db6e9",
-  "head": "10e16171d69c6e775781067d89e0b5e67a39933a",
+  "prev": "fc82667a9b7dc000df02a4cc7bc12c29a8fca31e",
+  "head": "b44783bdea674f452ed7f1464c682909da1a5de9",
   "applied": [
     "cellPositionsConst",
     "noiseConst",
     "calibConst",
-    "xtalkConst"
+    "xtalkConst",
+    "check"
   ],
   "unapplied": [],
   "hidden": [],
@@ -16,6 +17,9 @@
     },
     "cellPositionsConst": {
       "oid": "53f87b0e410a35f5d5ca3f9fe4ea4cc82b35391b"
+    },
+    "check": {
+      "oid": "b44783bdea674f452ed7f1464c682909da1a5de9"
     },
     "noiseConst": {
       "oid": "1fd43e7576d45e0162001d626d5b43ead0c03d27"
