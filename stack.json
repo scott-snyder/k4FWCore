@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "be556ca441cfc330438a4ae919d8d7c4bea480c8",
+  "prev": "b15890034fe9b925de4551611e11bd60fd4a3603",
   "head": "04deaece0cf41136add4de5271914e72e053b4ed",
   "applied": [
     "cellPositionsConst",
@@ -8,13 +8,16 @@
     "calibConst",
     "xtalkConst",
     "check",
-    "noiseVec"
+    "calibVec"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "calibConst": {
       "oid": "570228e5acfff36cd6a5c41dd8b813d8e058e527"
+    },
+    "calibVec": {
+      "oid": "04deaece0cf41136add4de5271914e72e053b4ed"
     },
     "cellPositionsConst": {
       "oid": "53f87b0e410a35f5d5ca3f9fe4ea4cc82b35391b"
@@ -24,9 +27,6 @@
     },
     "noiseConst": {
       "oid": "1fd43e7576d45e0162001d626d5b43ead0c03d27"
-    },
-    "noiseVec": {
-      "oid": "04deaece0cf41136add4de5271914e72e053b4ed"
     },
     "xtalkConst": {
       "oid": "10e16171d69c6e775781067d89e0b5e67a39933a"
