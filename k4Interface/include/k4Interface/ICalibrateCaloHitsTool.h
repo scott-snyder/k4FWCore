@@ -35,6 +35,7 @@ public:
   DeclareInterfaceID(ICalibrateCaloHitsTool, 1, 0);
 
   virtual void calibrate(std::unordered_map<uint64_t, double>& aHits) const = 0;
+  virtual void calibrate(std::vector<std::pair<uint64_t, double>>& aHits) const = 0;
 };
 
 #endif /* RECINTERFACE_ICALIBRATECALOHITSTOOL_H */
