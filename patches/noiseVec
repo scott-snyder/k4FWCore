@@ -1,0 +1,6 @@
+Bottom: cf2483f90080bcd6c09f68967e15f8b2ada414ab
+Top:    cf2483f90080bcd6c09f68967e15f8b2ada414ab
+Author: sss <sss@karma>
+Date:   2025-04-16 16:50:53 -0400
+
+Extend ICalibrateCaloHitsTool to also allow taking a vector of hit information.
