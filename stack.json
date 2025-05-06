@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "054f29affd0370edddea12fd783eb95965ac2c2d",
-  "head": "4924db0aea3cf09de75c0ffd832e396b8d6591ea",
+  "prev": "17797cf68cad0534d96a628b8369eafbcf675bf6",
+  "head": "7a7a596657baceb853e7b80999dba7d4e05b968a",
   "applied": [
     "cellPositionsConst",
     "noiseConst",
@@ -9,7 +9,8 @@
     "xtalkConst",
     "check",
     "calibVec",
-    "noiseVec"
+    "noiseVec",
+    "interact"
   ],
   "unapplied": [],
   "hidden": [],
@@ -25,6 +26,9 @@
     },
     "check": {
       "oid": "4928039423193be897e3cd35e5ad9aecac67d7da"
+    },
+    "interact": {
+      "oid": "7a7a596657baceb853e7b80999dba7d4e05b968a"
     },
     "noiseConst": {
       "oid": "1fd43e7576d45e0162001d626d5b43ead0c03d27"
