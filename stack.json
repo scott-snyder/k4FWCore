@@ -1,11 +1,10 @@
 {
   "version": 5,
-  "prev": "de72d517245e8451092402a685eb46b8f8548652",
-  "head": "27d96b59734426cb0ec94fd066f88fac3115ac0f",
+  "prev": "9e3e5051e94eea3f42edd7e38a2d2089a212da11",
+  "head": "a8292c23d9625cfa529c9470a8ccab766482ab66",
   "applied": [
     "cellPositionsConst",
-    "noiseConst",
-    "refresh-temp"
+    "noiseConst"
   ],
   "unapplied": [
     "calibConst",
@@ -33,13 +32,10 @@
       "oid": "ea4c3b93edbf9ce2ab55c12ab02dc8b3c8943c01"
     },
     "noiseConst": {
-      "oid": "50ca7df66fc61d061f50612c92ab3ab8884b503b"
+      "oid": "a8292c23d9625cfa529c9470a8ccab766482ab66"
     },
     "noiseVec": {
       "oid": "4924db0aea3cf09de75c0ffd832e396b8d6591ea"
-    },
-    "refresh-temp": {
-      "oid": "27d96b59734426cb0ec94fd066f88fac3115ac0f"
     },
     "xtalkConst": {
       "oid": "10e16171d69c6e775781067d89e0b5e67a39933a"
