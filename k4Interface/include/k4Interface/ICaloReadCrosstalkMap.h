@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Key4hep-Project.
+ * Copyright (c) 2014-2025 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -33,7 +33,7 @@ class ICaloReadCrosstalkMap : virtual public IAlgTool {
 public:
   DeclareInterfaceID(ICaloReadCrosstalkMap, 1, 0);
 
-  virtual std::vector<uint64_t> const& getNeighbours(uint64_t cellID) = 0;
-  virtual std::vector<double> const& getCrosstalks(uint64_t cellID) = 0;
+  virtual std::vector<uint64_t> const& getNeighbours(uint64_t cellID) const = 0;
+  virtual std::vector<double> const& getCrosstalks(uint64_t cellID) const = 0;
 };
 #endif /* RECINTERFACE_ICALOREADCROSSTALKMAP_H */
