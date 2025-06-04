@@ -1,13 +1,12 @@
 {
   "version": 5,
-  "prev": "319f8cd854532eb385a82ef5ff71597ab4563074",
-  "head": "0405a881934a1be74bec6c41d8dd71e5858dc9a7",
+  "prev": "fd86146cd709d2b5ba1f7afb711f203a68fc5e8e",
+  "head": "b09c2b4bda7e33683c419deb88d92c3ca2e13fda",
   "applied": [
     "cellPositionsConst",
     "noiseConst",
     "calibConst",
-    "xtalkConst",
-    "refresh-temp"
+    "xtalkConst"
   ],
   "unapplied": [
     "check",
@@ -38,11 +37,8 @@
     "noiseVec": {
       "oid": "4924db0aea3cf09de75c0ffd832e396b8d6591ea"
     },
-    "refresh-temp": {
-      "oid": "0405a881934a1be74bec6c41d8dd71e5858dc9a7"
-    },
     "xtalkConst": {
-      "oid": "1493d0aaa0eaf4c625360018cc0f84797e70d1f1"
+      "oid": "b09c2b4bda7e33683c419deb88d92c3ca2e13fda"
     }
   }
 }
