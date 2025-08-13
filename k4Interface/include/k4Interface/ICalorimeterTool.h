@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Key4hep-Project.
+ * Copyright (c) 2014-2025 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -33,7 +33,7 @@ class ICalorimeterTool : virtual public IAlgTool {
 public:
   DeclareInterfaceID(ICalorimeterTool, 1, 0);
 
-  virtual StatusCode prepareEmptyCells(std::unordered_map<uint64_t, double>& aCells) = 0;
+  virtual StatusCode prepareEmptyCells(std::unordered_map<uint64_t, double>& aCells) const = 0;
 };
 
 #endif /* RECINTERFACE_ICALORIMETERTOOL_H */
