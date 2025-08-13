@@ -21,6 +21,8 @@
 
 // Gaudi
 #include "GaudiKernel/IAlgTool.h"
+#include <unordered_map>
+#include <vector>
 
 /** @class ICalorimeterTool RecInterface/RecInterface/ICalorimeterTool.h ICalorimeterTool.h
  *
@@ -33,6 +35,7 @@ class ICalorimeterTool : virtual public IAlgTool {
 public:
   DeclareInterfaceID(ICalorimeterTool, 1, 0);
 
+  virtual std::vector<uint64_t> cellIDs() const = 0;
   virtual StatusCode prepareEmptyCells(std::unordered_map<uint64_t, double>& aCells) const = 0;
 };
 
