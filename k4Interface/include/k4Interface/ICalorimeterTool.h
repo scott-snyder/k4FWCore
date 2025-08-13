@@ -33,7 +33,7 @@ class ICalorimeterTool : virtual public IAlgTool {
 public:
   DeclareInterfaceID(ICalorimeterTool, 1, 0);
 
-  virtual StatusCode prepareEmptyCells(std::unordered_map<uint64_t, double>& aCells) = 0;
+  virtual StatusCode prepareEmptyCells(std::unordered_map<uint64_t, double>& aCells) const = 0;
 };
 
 #endif /* RECINTERFACE_ICALORIMETERTOOL_H */
