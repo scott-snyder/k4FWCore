@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "1ab505007c9dc7dee6d05531d27a26573d39bec7",
-  "head": "a319fef356e086d6074bd2bfc030817f120f0514",
+  "prev": "49b37cb440afb927cd0ee63c0ff5b834a4511756",
+  "head": "56d597604096ed076de2c7ca52842f39d35f6f46",
   "applied": [
     "cellPositionsConst",
     "noiseConst",
@@ -10,7 +10,8 @@
     "check",
     "calibVec",
     "noiseVec",
-    "interact"
+    "interact",
+    "geoConst"
   ],
   "unapplied": [],
   "hidden": [],
@@ -26,6 +27,9 @@
     },
     "check": {
       "oid": "a9d931eb7688540055cd0f1faee671143b655412"
+    },
+    "geoConst": {
+      "oid": "56d597604096ed076de2c7ca52842f39d35f6f46"
     },
     "interact": {
       "oid": "a319fef356e086d6074bd2bfc030817f120f0514"

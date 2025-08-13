@@ -1,0 +1,6 @@
+Bottom: 4ea4532aa75b32f13ee1e2e9e51fc0c471f8a574
+Top:    4ea4532aa75b32f13ee1e2e9e51fc0c471f8a574
+Author: sss <sss@karma>
+Date:   2025-08-13 11:33:20 -0400
+
+Make ICalorimeterTool::prepareEmptyCells const.
