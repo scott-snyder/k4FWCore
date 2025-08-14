@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2014-2024 Key4hep-Project.
+# Copyright (c) 2014-2025 Key4hep-Project.
 #
 # This file is part of Key4hep.
 # See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -113,7 +113,8 @@ class ApplicationMgr:
         try:
             self._mgr.EventLoop
         except AttributeError:
-            self._mgr.EventLoop = EventLoopMgr(Warnings=False)
+            #self._mgr.EventLoop = EventLoopMgr(Warnings=False)
+            self._mgr.EventLoop = EventLoopMgr()
 
         if "MetadataSvc" in self._mgr.allConfigurables:
             self._mgr.ExtSvc.append(self._mgr.allConfigurables["MetadataSvc"])
