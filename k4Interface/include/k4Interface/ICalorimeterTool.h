@@ -24,6 +24,10 @@
 #include <unordered_map>
 #include <vector>
 
+namespace dd4hep { namespace DDSegmentation {
+class Segmentation;
+}}
+
 /** @class ICalorimeterTool RecInterface/RecInterface/ICalorimeterTool.h ICalorimeterTool.h
  *
  *  Abstract interface to calorimeter geometry tool
@@ -37,6 +41,7 @@ public:
 
   virtual std::vector<uint64_t> cellIDs() const = 0;
   virtual StatusCode prepareEmptyCells(std::unordered_map<uint64_t, double>& aCells) const = 0;
+  virtual const dd4hep::DDSegmentation::Segmentation* segmentation() const = 0;
 };
 
 #endif /* RECINTERFACE_ICALORIMETERTOOL_H */
