@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Key4hep-Project.
+ * Copyright (c) 2014-2025 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -75,7 +75,7 @@ struct ExampleFunctionalTransformerMultiple final
     for (const auto& p : particles) {
       // We need to create a new particle since the current one is already in a collection
 
-      auto newParticle = newParticlesColl->create();
+      auto newParticle = newParticlesColl.create();
       newParticle.setPDG(p.getPDG() + m_offset);
       newParticle.setGeneratorStatus(p.getGeneratorStatus() + m_offset);
       newParticle.setSimulatorStatus(p.getSimulatorStatus() + m_offset);
