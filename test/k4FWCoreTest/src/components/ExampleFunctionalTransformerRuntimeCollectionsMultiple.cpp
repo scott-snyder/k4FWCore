@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Key4hep-Project.
+ * Copyright (c) 2014-2025 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -188,7 +188,7 @@ struct ExampleFunctionalTransformerRuntimeCollectionsMultiple final
               << ", " << tracks->at(0).getChi2() << ", " << tracks->at(0).getNdf();
         throw std::runtime_error(error.str());
       }
-      coll->push_back(tracks->at(0).clone());
+      coll.push_back(tracks->at(0).clone());
       trackVecOut.emplace_back(std::move(coll));
     }
 

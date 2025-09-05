@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Key4hep-Project.
+ * Copyright (c) 2014-2025 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -49,8 +49,8 @@ struct ExampleFunctionalTransformerRuntimeCollections final
       std::string name = "NewMCParticles" + std::to_string(i);
       auto& old_coll = input.at(i);
       auto coll = edm4hep::MCParticleCollection();
-      coll->push_back(old_coll->at(0).clone());
-      coll->push_back(old_coll->at(1).clone());
+      coll.push_back(old_coll->at(0).clone());
+      coll.push_back(old_coll->at(1).clone());
       outputCollections.emplace_back(std::move(coll));
     }
     return outputCollections;
