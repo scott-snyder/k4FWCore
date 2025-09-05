@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "91abe622379c0449b1abdea90a4a708aca90fa1a",
-  "head": "51580414c2b9960f99a3915829bd21893011e736",
+  "prev": "441cc3b54cefee416731fc0855751c2ba467cfec",
+  "head": "54bc2d2ac3d51bef44273a31324ea39e3e3fb398",
   "applied": [
     "gaudir40",
     "cellPositionsConst",
@@ -13,7 +13,8 @@
     "noiseVec",
     "interact",
     "geoConst",
-    "cellIDs"
+    "cellIDs",
+    "danglewarn"
   ],
   "unapplied": [],
   "hidden": [],
@@ -32,6 +33,9 @@
     },
     "check": {
       "oid": "5c6e89c803a67b2c8e5ec3240a76ed1178a26211"
+    },
+    "danglewarn": {
+      "oid": "54bc2d2ac3d51bef44273a31324ea39e3e3fb398"
     },
     "gaudir40": {
       "oid": "56495d1f54b3fbdfda72ebcb9dea929f016d9c1e"
