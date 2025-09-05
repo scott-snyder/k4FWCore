@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "dc356052f651afd159d686f96971deb09a3f8c98",
-  "head": "a43d132c932dd55b7acb4b2ee2ca5a6e2decdf5e",
+  "prev": "e0cb0fa01ff3ec78714d8f84fa9e918648115791",
+  "head": "f658aa08d3181225fd9b67ac5fea45ed2d9527a8",
   "applied": [
     "gaudir40",
     "cellPositionsConst",
@@ -14,7 +14,8 @@
     "interact",
     "geoConst",
     "cellIDs",
-    "danglewarn"
+    "danglewarn",
+    "deprarrow"
   ],
   "unapplied": [],
   "hidden": [],
@@ -36,6 +37,9 @@
     },
     "danglewarn": {
       "oid": "a43d132c932dd55b7acb4b2ee2ca5a6e2decdf5e"
+    },
+    "deprarrow": {
+      "oid": "f658aa08d3181225fd9b67ac5fea45ed2d9527a8"
     },
     "gaudir40": {
       "oid": "56495d1f54b3fbdfda72ebcb9dea929f016d9c1e"
