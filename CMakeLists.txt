@@ -50,3 +50,11 @@ if(ENABLE_CPACK)
 endif()
 
 include(cmake/k4FWCoreCreateConfig.cmake)
+
+
+# By default, the generated Target file will set up the include paths for
+# our libraries using INTERFACE_INCLUDE_DIRECTORIES, meaning that they
+# will be included using -isystem rather than -I.  However, this can hide
+# warnings.  Adjust the behavior to use -I instead.
+set_target_properties( k4FWCore PROPERTIES EXPORT_NO_SYSTEM ON )
+set_target_properties( k4FWCorePlugins PROPERTIES EXPORT_NO_SYSTEM ON )
