@@ -1,0 +1,11 @@
+Bottom: a8ff46949c4c8539c1a7eeed8994172206ef23af
+Top:    a8ff46949c4c8539c1a7eeed8994172206ef23af
+Author: sss <sss@karma>
+Date:   2025-09-05 20:36:37 -0400
+
+Make headers available with SYSTEM turned off.
+
+By default, the generated Target file will set up the include paths for
+our libraries using INTERFACE_INCLUDE_DIRECTORIES, meaning that they
+will be included using -isystem rather than -I.  However, this can hide
+warnings.  Adjust the behavior to use -I instead.
