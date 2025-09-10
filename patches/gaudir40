@@ -1,8 +1,0 @@
-Bottom: 25dea8134bba63b49cc852e5c67b934000ed7116
-Top:    25dea8134bba63b49cc852e5c67b934000ed7116
-Author: sss <sss@karma>
-Date:   2025-09-10 16:48:28 -0400
-
-Update for changes in Gaudi r40.
-
-EventLoopMgr no longer has the Warnings property.
