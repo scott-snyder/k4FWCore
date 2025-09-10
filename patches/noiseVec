@@ -1,6 +1,9 @@
 Bottom: 9362731b4d8d86236d87ebeec39b85e9455829e2
 Top:    ea9fb0d458160da7244425c7826e5cddf0de0e6c
 Author: sss <sss@karma>
-Date:   2025-08-14 14:18:07 -0400
+Date:   2025-04-18 16:11:27 -0400
 
-Extend INoiseCaloCellsTool to also allow taking a vector of hit information.
+Add methods to get noise as a vector rather than a set.
+
+Add new overloads for INoiseCaloCellsTool::addRandomCellNoise and
+filterCellNoise that return a vector of cell/energy pairs rather than a set.
