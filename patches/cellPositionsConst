@@ -3,6 +3,6 @@ Top:    8402f32672d42952705215d611ca68c3e4fd084f
 Author: sss <sss@karma>
 Date:   2025-04-11 13:41:41 -0400
 
-Make all methods of ICellPositionsTool const.
+Make methods of ICellPositionsTool const.
 
-Calo components cleanup.
+Make ICellPositionsTool::getPositions and layerId const.
