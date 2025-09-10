@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "2c96cae0203d87ea8a53dfe3b45851dd4bc68da3",
+  "prev": "fcb01b6732894d409cbb80cf7e072ca7af00219c",
   "head": "3115857ffa41c9edad4d66e2dd905e4109434f4d",
   "applied": [
     "gaudir40",
@@ -44,7 +44,7 @@
       "oid": "3115857ffa41c9edad4d66e2dd905e4109434f4d"
     },
     "noiseConst": {
-      "oid": "3c707e3cf78708de35d8b10ffb2612c375863f26"
+      "oid": "d0c0bf2bd7f03f50796b3506feb96f4f52b63590"
     },
     "calibConst": {
       "oid": "fc7041368f1da09f641cebc7a20fb88fde679373"

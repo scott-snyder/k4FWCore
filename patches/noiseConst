@@ -1,8 +1,9 @@
 Bottom: 63b0db16a101824a902c11b3cd03df9cce850e1b
 Top:    e1b1736543bfa381920a9b58333d35703f633744
 Author: sss <sss@karma>
-Date:   2025-08-14 14:18:07 -0400
+Date:   2025-04-11 14:36:04 -0400
 
-Make all methods of INoiseCaloCellsTool and INoiseConstTool const.
+Make methods of INoiseCaloCellsTool and INoiseConstTool const.
 
-Calo components cleanup.
+Make INoiseCaloCellsTool::addRandomCellNoise and filterCellNoise as well as
+INoiseConstTool::getNoiseRMSPerCell and getNoiseRMSPerCell const.
