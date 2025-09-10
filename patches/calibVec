@@ -4,3 +4,6 @@ Author: sss <sss@karma>
 Date:   2025-04-16 16:50:53 -0400
 
 Extend ICalibrateCaloHitsTool to also allow taking a vector of hit information.
+
+Add a new calibrate method that takes a vector of hit information rather
+than a map.
