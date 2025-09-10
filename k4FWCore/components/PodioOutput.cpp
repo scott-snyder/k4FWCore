@@ -20,6 +20,8 @@
 #include <filesystem>
 #include <system_error>
 
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
 #include "GaudiKernel/MsgStream.h"
 
 #include "PodioOutput.h"
