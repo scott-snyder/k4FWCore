@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Key4hep-Project.
+ * Copyright (c) 2014-2025 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -18,6 +18,8 @@
  */
 
 #include "k4DataSvc.h"
+
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 // Instantiation of a static factory class used by clients to create
 // instances of this service
