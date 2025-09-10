@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "734882404928d48337892900932383ea3a0c3491",
-  "head": "b3001d2eb319bc57c577e62d699bb70aebebe43a",
+  "prev": "7a9a2d3ad101142396ad9e4a7ef8c0fd88ca0d0b",
+  "head": "88830238df2a308f577fb56531f422f7e040b50c",
   "applied": [
     "gaudir40",
     "check",
@@ -15,11 +15,10 @@
     "calibConst",
     "calibVec",
     "xtalkConst",
-    "geoConst"
-  ],
-  "unapplied": [
+    "geoConst",
     "cellIDs"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "gaudir40": {
@@ -62,7 +61,7 @@
       "oid": "b3001d2eb319bc57c577e62d699bb70aebebe43a"
     },
     "cellIDs": {
-      "oid": "51580414c2b9960f99a3915829bd21893011e736"
+      "oid": "88830238df2a308f577fb56531f422f7e040b50c"
     }
   }
 }
