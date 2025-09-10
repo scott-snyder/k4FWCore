@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "4f9289ad0d2922e60e2f7f885e398735edb7be33",
-  "head": "700b7880f6bbd4826aab83e2007859e3f934214d",
+  "prev": "7c4fd4c09ef20a22e376d1d247335db14d59390a",
+  "head": "9162c75f39b1c1b5759b7b32c54564f1f5ea051e",
   "applied": [
     "check",
     "interact",
-    "danglewarn",
-    "deprarrow"
+    "danglewarn"
   ],
   "unapplied": [
     "nosystem",
@@ -38,9 +37,6 @@
     },
     "danglewarn": {
       "oid": "9162c75f39b1c1b5759b7b32c54564f1f5ea051e"
-    },
-    "deprarrow": {
-      "oid": "700b7880f6bbd4826aab83e2007859e3f934214d"
     },
     "geoConst": {
       "oid": "b3001d2eb319bc57c577e62d699bb70aebebe43a"
