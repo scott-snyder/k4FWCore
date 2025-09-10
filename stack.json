@@ -1,10 +1,11 @@
 {
   "version": 5,
-  "prev": "0cded1dea6871c13b18a2c3d8d11af32b2712cd0",
-  "head": "7770bffa1530e1bef6fc20005d2af968a35e9cc0",
-  "applied": [],
+  "prev": "ca9f639170326db78a851270035575cf13383613",
+  "head": "be6a5317a3663d64f274f6c967bfa5447b64bfc9",
+  "applied": [
+    "check"
+  ],
   "unapplied": [
-    "check",
     "interact",
     "danglewarn",
     "deprarrow",
@@ -33,7 +34,7 @@
       "oid": "3115857ffa41c9edad4d66e2dd905e4109434f4d"
     },
     "check": {
-      "oid": "a3372905d59b23ff84e8d0b607a889eef71e9cf0"
+      "oid": "be6a5317a3663d64f274f6c967bfa5447b64bfc9"
     },
     "danglewarn": {
       "oid": "da6b2e05ffb08fb5ab0e9b19f6233eb6499034b2"
