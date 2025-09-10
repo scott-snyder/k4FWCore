@@ -19,6 +19,8 @@
 
 #include "FCCDataSvc.h"
 
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
 // Instantiation of a static factory class used by clients to create
 // instances of this service
 DECLARE_COMPONENT(FCCDataSvc)
