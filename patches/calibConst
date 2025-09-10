@@ -3,6 +3,6 @@ Top:    badde0a9ad2ae5a2178ad95236cf8c9c81578d41
 Author: sss <sss@karma>
 Date:   2025-04-11 14:48:16 -0400
 
-Make all methods of ICalibrateCaloHitsTool const.
+Make methods of ICalibrateCaloHitsTool const.
 
-Calo components cleanup.
+Make ICalibrateCaloHitsTool::calibrate const.
