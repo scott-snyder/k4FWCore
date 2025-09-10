@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "a88f270e0be17850737b52ad9fb97e5e559ac439",
-  "head": "e441e12d3730b5fe073bc973f9441cb231508a81",
+  "prev": "0a24ae4da9d0037830181701a0406510e97f23a7",
+  "head": "c6e9d0ef4e7367863c2001cce474dee101a24a3c",
   "applied": [
     "gaudir40",
     "check",
@@ -13,10 +13,10 @@
     "noiseConst",
     "noiseVec",
     "calibConst",
-    "calibVec"
+    "calibVec",
+    "xtalkConst"
   ],
   "unapplied": [
-    "xtalkConst",
     "geoConst",
     "cellIDs"
   ],
@@ -56,7 +56,7 @@
       "oid": "e441e12d3730b5fe073bc973f9441cb231508a81"
     },
     "xtalkConst": {
-      "oid": "11ef657a73b0071be8fc2234a61a801fe06b5981"
+      "oid": "c6e9d0ef4e7367863c2001cce474dee101a24a3c"
     },
     "geoConst": {
       "oid": "d33bcea6fd2fb06018ba796f2cae82c170b4b52d"
