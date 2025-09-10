@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "1f43c2a6ee1e4b32472172aab5fe75ffe6d81e39",
-  "head": "c9d6d981e5925c7a64a41f07ed8108d051c299bc",
+  "prev": "914d10f73aa49830cf527c3156687f6021813d5d",
+  "head": "56db02c2369b64b94fd6acf0611ade0c4530db17",
   "applied": [
     "check",
     "interact",
@@ -15,8 +15,7 @@
     "xtalkConst",
     "geoConst",
     "cellIDs",
-    "depr",
-    "refresh-temp"
+    "depr"
   ],
   "unapplied": [],
   "hidden": [],
@@ -40,7 +39,7 @@
       "oid": "9162c75f39b1c1b5759b7b32c54564f1f5ea051e"
     },
     "depr": {
-      "oid": "16c3ceb57b311453b026ab8efcd5bbe91fb751fd"
+      "oid": "56db02c2369b64b94fd6acf0611ade0c4530db17"
     },
     "geoConst": {
       "oid": "44293ddcd47ab82daa715df6096fb379e324ff41"
@@ -56,9 +55,6 @@
     },
     "nosystem": {
       "oid": "26e071182c934f64577c32bbb9666c1cb8ed2e96"
-    },
-    "refresh-temp": {
-      "oid": "c9d6d981e5925c7a64a41f07ed8108d051c299bc"
     },
     "xtalkConst": {
       "oid": "abe9dece3b94aa2bd10f94156c752efc64491d76"
