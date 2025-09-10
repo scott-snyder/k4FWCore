@@ -1,8 +1,8 @@
 Bottom: 2cc2c474b41bbd99e2bdbd8c036cee76e5b24864
 Top:    590079b90d0a4c7b3c1f7088ade9b3db0ab55503
 Author: sss <sss@karma>
-Date:   2025-08-14 14:18:07 -0400
+Date:   2025-04-11 15:22:58 -0400
 
-Make all methods of ICaloReadCrosstalkMap const.
+Make methods of ICaloReadCrosstalkMap const.
 
-Calo components cleanup.
+Make ICaloReadCrosstalkMap::getNeighbours and getCrosstalks const.
