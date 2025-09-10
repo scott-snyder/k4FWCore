@@ -25,6 +25,8 @@
 
 #include "podio/UserDataCollection.h"
 
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
 DECLARE_COMPONENT(PodioInput)
 
 template <typename T>
