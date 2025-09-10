@@ -1,13 +1,13 @@
 {
   "version": 5,
-  "prev": "a103ee0780496ec768bdf051500a98d634b5fd03",
-  "head": "3f4da2e8addba39a76813ac248e97a8702c9bdb1",
+  "prev": "1283cb763bd5c2e6c0a59a4a722cde387f5453ec",
+  "head": "9162c75f39b1c1b5759b7b32c54564f1f5ea051e",
   "applied": [
     "check",
-    "interact"
+    "interact",
+    "danglewarn"
   ],
   "unapplied": [
-    "danglewarn",
     "deprarrow",
     "nosystem",
     "cellPositionsConst",
@@ -37,7 +37,7 @@
       "oid": "be6a5317a3663d64f274f6c967bfa5447b64bfc9"
     },
     "danglewarn": {
-      "oid": "da6b2e05ffb08fb5ab0e9b19f6233eb6499034b2"
+      "oid": "9162c75f39b1c1b5759b7b32c54564f1f5ea051e"
     },
     "deprarrow": {
       "oid": "1eb04c02904be2a2fac19e7d7298b3e7908127cc"
