@@ -132,8 +132,6 @@ def startInteractive(vars):
     code.interact(local=vars)
     return
 
-
-
     def __call__(self, parser, namespace, values, option_string=None):
         warnings.warn(
             f"Argument '{self.dest}' is deprecated and will be removed in a future version.",
