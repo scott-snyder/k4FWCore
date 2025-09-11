@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "c3085db3aeefd7b0edaae54180678f54bb349f2c",
-  "head": "b009f213c69e083aa7249fadbe3124c76e5c31c3",
+  "prev": "e52eaa4b201b9d138a5dba5be5c240b5450341cc",
+  "head": "9e3aebffdd958e44089491bb6a04ea089f4c2bb6",
   "applied": [
     "check",
     "interact",
@@ -15,8 +15,7 @@
     "calibVec",
     "xtalkConst",
     "geoConst",
-    "cellIDs",
-    "refresh-temp"
+    "cellIDs"
   ],
   "unapplied": [],
   "hidden": [],
@@ -28,7 +27,7 @@
       "oid": "f1d157162af54dfb4c1462a90887d8520ed59505"
     },
     "cellIDs": {
-      "oid": "72fe9d48ba42ca0bb9f7f090bd2b612cc24c0f64"
+      "oid": "9e3aebffdd958e44089491bb6a04ea089f4c2bb6"
     },
     "cellPositionsConst": {
       "oid": "9ac85d1baea1904d25e07740d8fa863101b26ce5"
@@ -56,9 +55,6 @@
     },
     "nosystem": {
       "oid": "c51f296e607b04775fa1ec128d0f8132731e54ac"
-    },
-    "refresh-temp": {
-      "oid": "b009f213c69e083aa7249fadbe3124c76e5c31c3"
     },
     "xtalkConst": {
       "oid": "bfb71eeb8eb0d9468dd92afbd61c01e2732d6116"
