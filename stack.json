@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "6a07897f2bafe28548cc091f22a983b667ea2291",
-  "head": "4dcb1d16449ac8d634908ea9424ddfbe228e2a41",
+  "prev": "4bb4eeb66384b7da52d8bf2df45588e45d21624b",
+  "head": "5c3b3b19a91ac9800962b4c57dfdfa5b81dfe563",
   "applied": [
     "check",
     "interact",
@@ -15,8 +15,7 @@
     "calibVec",
     "xtalkConst",
     "geoConst",
-    "cellIDs",
-    "refresh-temp"
+    "cellIDs"
   ],
   "unapplied": [],
   "hidden": [],
@@ -28,7 +27,7 @@
       "oid": "318a93b8530fcdfb76238fe9540b6b6f20831d65"
     },
     "cellIDs": {
-      "oid": "bdf61dc159f7c7a67464576c906da4af6fc47b7c"
+      "oid": "5c3b3b19a91ac9800962b4c57dfdfa5b81dfe563"
     },
     "cellPositionsConst": {
       "oid": "4e9d4e773cfc9d4390397dfac6413cb612380040"
@@ -43,7 +42,7 @@
       "oid": "6069e5cc15a6fc2c9aa3bb27762e4b4a6211649d"
     },
     "geoConst": {
-      "oid": "cac9702e5959ed934e132fa5ff956c3f74a4fcdd"
+      "oid": "be3efca0a6fd820429db7b5d75e57ad57b7df5ff"
     },
     "interact": {
       "oid": "7779b0b2506475a23b9cd643788fe2d7dac278a3"
@@ -56,9 +55,6 @@
     },
     "nosystem": {
       "oid": "5cc5e33baa36a553eb90f5bc80ea933581face47"
-    },
-    "refresh-temp": {
-      "oid": "4dcb1d16449ac8d634908ea9424ddfbe228e2a41"
     },
     "xtalkConst": {
       "oid": "54b7373055c808c639d0370a1276eced12bb6618"
