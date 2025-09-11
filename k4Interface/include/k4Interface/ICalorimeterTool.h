@@ -24,9 +24,11 @@
 #include <unordered_map>
 #include <vector>
 
-namespace dd4hep { namespace DDSegmentation {
-class Segmentation;
-}}
+namespace dd4hep {
+namespace DDSegmentation {
+  class Segmentation;
+}
+} // namespace dd4hep
 
 /** @class ICalorimeterTool RecInterface/RecInterface/ICalorimeterTool.h ICalorimeterTool.h
  *
