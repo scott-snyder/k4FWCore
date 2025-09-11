@@ -1,7 +1,7 @@
-Bottom: db50c4b8af52a490cbbc7e22fffb5f290cbd3073
-Top:    0a8b02681c0bd2e6df5bfc67003aece77da1a67e
+Bottom: 07d4ed9e4f04e5634c5e5e7a13a4d74e67bc9805
+Top:    dc89f1a480184636b000e1e7b10921c2694d8dcf
 Author: sss <sss@karma>
-Date:   2025-09-11 16:28:44 -0400
+Date:   2025-09-11 16:29:03 -0400
 
 Extend ICalibrateCaloHitsTool to also allow taking a vector of hit information.
 
