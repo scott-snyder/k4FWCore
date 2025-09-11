@@ -24,13 +24,10 @@
  * @brief Helper to check return codes in a Gaudi component.
  */
 
-
 #ifndef K4FWCORE_K4_CHECK_H
 #define K4FWCORE_K4_CHECK_H
 
-
 #include "GaudiKernel/StatusCode.h"
-
 
 /**
  * @brief Helper to check return codes in a Gaudi component.
@@ -41,13 +38,12 @@
  * This can be used to make checking the results of calls from Gaudi components
  * easier to read.
  */
-#define K4_CHECK( EXP ) \
-  do {               \
-    if ( ! ( EXP ) ) { \
-      error() << __FILE__ << ":" << __LINE__ << " error returned from: " << #EXP  << endmsg; \
-      return StatusCode::FAILURE;                                       \
-    }                                                                   \
+#define K4_CHECK(EXP)                                                                                                  \
+  do {                                                                                                                 \
+    if (!(EXP)) {                                                                                                      \
+      error() << __FILE__ << ":" << __LINE__ << " error returned from: " << #EXP << endmsg;                            \
+      return StatusCode::FAILURE;                                                                                      \
+    }                                                                                                                  \
   } while (0)
-
 
 #endif // not K4FWCORE_K4_CHECK_H
