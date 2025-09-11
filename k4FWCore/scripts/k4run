@@ -128,10 +128,6 @@ def startInteractive(vars):
     # collect all global and local variables
     vars = vars.copy()
 
-    # configure the prompt
-    #from AthenaCommon.Interactive import configureInteractivePrompt
-    #configureInteractivePrompt(vars)
-
     # start the interpreter
     code.interact(local=vars)
     return
@@ -227,7 +223,7 @@ def main():
         sys.exit()
 
     config_ns = {}
-    config_ns['os'] = os
+    config_ns["os"] = os
     for file in opts[0].config_files:
         load_file(file, config_ns)
 
