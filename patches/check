@@ -1,7 +1,7 @@
 Bottom: 25dea8134bba63b49cc852e5c67b934000ed7116
 Top:    6d5ee49f19f3619dc2d90906d3f9a569db701ac4
 Author: sss <sss@karma>
-Date:   2025-09-11 21:26:25 -0400
+Date:   2025-09-11 22:52:19 -0400
 
 Add K4_CHECK macro.
 
@@ -11,11 +11,11 @@ return statuses in Gaudi components.
 This allows for example to replace code like
 
 ```
--  {
--    StatusCode sc = AlgTool::initialize();
--    if (sc.isFailure())
--      return sc;
--  }
+  {
+    StatusCode sc = AlgTool::initialize();
+    if (sc.isFailure())
+      return sc;
+  }
 ```
 
 with
