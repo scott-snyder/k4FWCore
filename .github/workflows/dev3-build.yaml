@@ -4,8 +4,8 @@ name: LCG build (dev3)
 
 on:
   push:
-    branches:
-    - main
+  #  branches:
+  #  - main
   pull_request:
   workflow_dispatch:
   schedule:
