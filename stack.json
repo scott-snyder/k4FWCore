@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "727b1683b6214fb3225564626b942518c1f609d3",
-  "head": "1dff36a7c3afc17f2fcfabce7ce0486dff0a8eca",
+  "prev": "c7c468498f7b642ec5041df07572c440d0302aad",
+  "head": "16a8e729fbfb887d65125627786ce21b49947429",
   "applied": [
     "danglewarn",
     "depr",
@@ -15,8 +15,7 @@
     "geoConst",
     "cellIDs",
     "interact",
-    "check",
-    "check2"
+    "check"
   ],
   "unapplied": [
     "ci"
@@ -36,10 +35,7 @@
       "oid": "64d0b35d90b348778fdc7921ee441922bd5aba11"
     },
     "check": {
-      "oid": "a97dd2cb5fdf4f17427b5bcc8d1d656cdb6215ae"
-    },
-    "check2": {
-      "oid": "1dff36a7c3afc17f2fcfabce7ce0486dff0a8eca"
+      "oid": "16a8e729fbfb887d65125627786ce21b49947429"
     },
     "ci": {
       "oid": "d9cef82963b64c83bb08100945592c98dd909639"
