@@ -138,7 +138,7 @@ def startInteractive(vars):
     # start the interpreter
     code.interact(
         local=vars,
-        banner="Starting interactive Python session.  Exit with Ctrl-D to resume the job."
+        banner="Starting interactive Python session.  Exit with Ctrl-D to resume the job.",
     )
     return
 
