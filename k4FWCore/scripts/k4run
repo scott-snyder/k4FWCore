@@ -121,8 +121,16 @@ class DeprecatedStoreTrueAction(argparse.Action):
         super().__init__(option_strings, dest, nargs=nargs, **kwargs)
 
 
+    def __call__(self, parser, namespace, values, option_string=None):
+        warnings.warn(
+            f"Argument '{self.dest}' is deprecated and will be removed in a future version.",
+            DeprecationWarning,
+        )
+        setattr(namespace, self.dest, True)
+
+
 def startInteractive(vars):
-    """Setup and start a useful interactive session including auto-completion and history"""
+    """Start an interactive session"""
     import code
 
     # collect all global and local variables
@@ -131,13 +139,6 @@ def startInteractive(vars):
     # start the interpreter
     code.interact(local=vars)
     return
-
-    def __call__(self, parser, namespace, values, option_string=None):
-        warnings.warn(
-            f"Argument '{self.dest}' is deprecated and will be removed in a future version.",
-            DeprecationWarning,
-        )
-        setattr(namespace, self.dest, True)
 
 
 def main():
