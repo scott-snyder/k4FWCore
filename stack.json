@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "ab7efd3390862fb2c635c86b0c856f6a49788003",
-  "head": "0e9e8a9343de16275872c99c2b1413ef179bdf94",
+  "prev": "df04a11719d1ef7b14607752c0cb685672f46beb",
+  "head": "1782526cd8645c021fc85526eece67160f4c9947",
   "applied": [
     "check",
     "danglewarn",
@@ -15,14 +15,16 @@
     "xtalkConst",
     "geoConst",
     "cellIDs",
-    "interact",
-    "interact2"
+    "add-interactive-i-flag-to"
   ],
   "unapplied": [
     "ci"
   ],
   "hidden": [],
   "patches": {
+    "add-interactive-i-flag-to": {
+      "oid": "1782526cd8645c021fc85526eece67160f4c9947"
+    },
     "calibConst": {
       "oid": "c3d1504daf98d74aded2be7e67204a3cb757cb46"
     },
@@ -49,12 +51,6 @@
     },
     "geoConst": {
       "oid": "151b3556c2e831ceb9a171cb6216617a98efbd3b"
-    },
-    "interact": {
-      "oid": "786d8ed635faa4938570b7ba37c209c8d321e94b"
-    },
-    "interact2": {
-      "oid": "0e9e8a9343de16275872c99c2b1413ef179bdf94"
     },
     "noiseConst": {
       "oid": "3d32113602fafe6ebc6d9b427d76feb76b8cf5d8"
