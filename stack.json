@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "5548b741293c2f22eb5f0dc1890bc3117b7f6fae",
-  "head": "fd67a8eb2e2150ef489d7a1472fda6a14721cade",
+  "prev": "168bd578284639067d5d4ec8b59b2a82a7c50177",
+  "head": "9977e8d9fdd8a8116875c15e555b888897fe9785",
   "applied": [
     "danglewarn",
     "depr",
@@ -15,7 +15,8 @@
     "calibVec",
     "xtalkConst",
     "geoConst",
-    "cellIDs"
+    "cellIDs",
+    "check2"
   ],
   "unapplied": [
     "ci"
@@ -36,6 +37,9 @@
     },
     "check": {
       "oid": "635f9a0251921f9750acdba5d0fe2792f5eade76"
+    },
+    "check2": {
+      "oid": "9977e8d9fdd8a8116875c15e555b888897fe9785"
     },
     "ci": {
       "oid": "0b44d32afe0c87d03ad992979d268186c3413fa4"
