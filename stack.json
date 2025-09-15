@@ -1,13 +1,15 @@
 {
   "version": 5,
-  "prev": "4aaa6a18cb70fc2a8caeec61e0b23a229bdaf869",
-  "head": "6324990e37aacce233f501534207f3f97d994205",
+  "prev": "65c86f65226016911c210d8c21eb35893ffc64be",
+  "head": "635f9a0251921f9750acdba5d0fe2792f5eade76",
   "applied": [
     "danglewarn",
     "depr",
     "nosystem",
     "interact",
-    "check",
+    "check"
+  ],
+  "unapplied": [
     "cellPositionsConst",
     "noiseConst",
     "noiseVec",
@@ -16,9 +18,7 @@
     "xtalkConst",
     "geoConst",
     "cellIDs",
-    "check2"
-  ],
-  "unapplied": [
+    "check2",
     "ci"
   ],
   "hidden": [],
