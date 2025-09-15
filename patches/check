@@ -1,9 +1,9 @@
 Bottom: a73fa8e423b460291b55aa2e88f456de32a034d8
-Top:    e17bfd9c959d942cb52590b33192f4d7328b3950
+Top:    c8b5153b2c7ea42e61dafdeb143a72a70d5704e2
 Author: sss <sss@karma>
-Date:   2025-09-13 21:32:02 -0400
+Date:   2025-09-15 14:33:21 -0400
 
-Add K4_CHECK macro.
+Add K4_GAUDI_CHECK macro.
 
 Add a macro to reduce repetitive code involved in checking for error
 return statuses in Gaudi components.
@@ -20,5 +20,5 @@ This allows for example to replace code like
 with
 
 ```
-  K4_CHECK( m_cellPositionsTool.retrieve() );
+  K4_GAUDI_CHECK( m_cellPositionsTool.retrieve() );
 ```
