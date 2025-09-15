@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "63382114bace59d8945059c164fb5b2a40c00f82",
-  "head": "94f1b612668591e19217100aaf3ec714e377c5cb",
+  "prev": "0ea139a5fe0a4a289855d51a47df86bcdf58553d",
+  "head": "e1dd56c4653f02365e8d05b851e2abcf7dae5391",
   "applied": [
     "danglewarn",
     "depr",
@@ -15,10 +15,11 @@
     "calibVec",
     "xtalkConst",
     "geoConst",
-    "cellIDs",
+    "cellIDs"
+  ],
+  "unapplied": [
     "ci"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "calibConst": {
