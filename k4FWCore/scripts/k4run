@@ -227,7 +227,7 @@ def main():
 
     config_ns = {}
     for file in opts[0].config_files:
-        config_ns.update (load_file(file))
+        config_ns.update(load_file(file))
 
     from Configurables import ApplicationMgr
 
