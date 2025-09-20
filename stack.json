@@ -1,11 +1,12 @@
 {
   "version": 5,
-  "prev": "f96fb8a312e160fb5fc96e64d2653d509ba304bd",
-  "head": "a56d9f63caec4c8c036ec6cc53107973701af7c0",
-  "applied": [],
+  "prev": "406c4102ca255d0dcfd47415a2a2c43bf8410b44",
+  "head": "7a2e0c7465dbda19eaa9bd4630ca722fcc29275f",
+  "applied": [
+    "depr"
+  ],
   "unapplied": [
     "danglewarn",
-    "depr",
     "nosystem",
     "check",
     "cellPositionsConst",
@@ -43,7 +44,7 @@
       "oid": "bd0c5130d8fefb026e2b68a5452f6aff5f0f0816"
     },
     "depr": {
-      "oid": "1a8c8f69bad91d6391d936b91fba70b35ee684cb"
+      "oid": "7a2e0c7465dbda19eaa9bd4630ca722fcc29275f"
     },
     "geoConst": {
       "oid": "7a92dfd269a860e4532319f36910bd7b7ee5f1fb"
