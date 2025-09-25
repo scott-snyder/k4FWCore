@@ -1,10 +1,11 @@
 {
   "version": 5,
-  "prev": "5393b2201d88833cf0b522992e39abd02c33d1ac",
-  "head": "a56d9f63caec4c8c036ec6cc53107973701af7c0",
-  "applied": [],
+  "prev": "fe91f9416f53db80ee7c5559405770175f98b226",
+  "head": "7a2e0c7465dbda19eaa9bd4630ca722fcc29275f",
+  "applied": [
+    "depr"
+  ],
   "unapplied": [
-    "depr",
     "danglewarn",
     "nosystem",
     "check",
