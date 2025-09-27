@@ -1,10 +1,11 @@
 {
   "version": 5,
-  "prev": "c8962f9bd996358fd908ecdd63348d79ccbb033d",
-  "head": "ef1cba0543b2c2c0f3a7e95e6e3e1a57d06024d9",
+  "prev": "7272c8628b32db54cc9b19d468b5a63cc0b33332",
+  "head": "ec3eae59506fb4e8582cd20326b252232266e4ea",
   "applied": [
     "depr",
-    "xtalkConst"
+    "xtalkConst",
+    "ci"
   ],
   "unapplied": [
     "danglewarn",
@@ -17,8 +18,7 @@
     "calibVec",
     "geoConst",
     "cellIDs",
-    "interact",
-    "ci"
+    "interact"
   ],
   "hidden": [],
   "patches": {
@@ -38,7 +38,7 @@
       "oid": "b986dcda392563978fde65fa57d9778370389e1e"
     },
     "ci": {
-      "oid": "417385471e1a4f68f3079429d7d232e24ab596ec"
+      "oid": "ec3eae59506fb4e8582cd20326b252232266e4ea"
     },
     "danglewarn": {
       "oid": "1615d75b9e2878b2befd6130a1f37940c1aa5920"
