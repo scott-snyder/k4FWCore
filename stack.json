@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "20676c22f8e45309c1e4ca89d0e8f161de01b4b7",
-  "head": "4ceea55a8dfb08a48481e64d5aecc1e482210411",
-  "applied": [
-    "depr",
-    "xtalkConst"
-  ],
+  "prev": "466b6f57233b3ccb9c565f84ed4ee015b0891866",
+  "head": "a56d9f63caec4c8c036ec6cc53107973701af7c0",
+  "applied": [],
   "unapplied": [
+    "depr",
+    "xtalkConst",
     "danglewarn",
     "nosystem",
     "check",
