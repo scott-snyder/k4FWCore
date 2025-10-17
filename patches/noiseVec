@@ -1,7 +1,7 @@
 Bottom: 0ad03efd410d0cb34362cd826ab68ce352eee019
 Top:    65788b651353fe7e797545dda8ccfd63e7a47736
 Author: sss <sss@karma>
-Date:   2025-10-07 19:33:16 -0400
+Date:   2025-10-17 18:38:02 -0400
 
 Add methods to get noise as a vector rather than a set.
 
