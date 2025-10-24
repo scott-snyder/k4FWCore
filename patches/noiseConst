@@ -1,9 +1,0 @@
-Bottom: 5c6ecfd82ce97f7304fb18f31ba901461006adc7
-Top:    7c621c5d901e54678ba095c4acef63da3886a170
-Author: sss <sss@karma>
-Date:   2025-10-24 10:45:38 -0400
-
-Make methods of INoiseCaloCellsTool and INoiseConstTool const.
-
-Make INoiseCaloCellsTool::addRandomCellNoise and filterCellNoise as well as
-INoiseConstTool::getNoiseRMSPerCell and getNoiseRMSPerCell const.

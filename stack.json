@@ -1,13 +1,12 @@
 {
   "version": 5,
-  "prev": "722c7f646f6119862085f0c0cbdc49412c8b04b6",
-  "head": "b27485570edacb66c2e0376eff7b1972759ed421",
+  "prev": "7d79d93955be3ebb6a19a38eeec42437d45c7c0d",
+  "head": "2f1f79f96705baec1ced37c3ba9657253bd7c576",
   "applied": [
     "depr",
     "ci",
     "nosystem",
-    "noiseConst",
-    "noiseVec"
+    "updates-to-inoisecalocellstool"
   ],
   "unapplied": [
     "check",
@@ -47,14 +46,11 @@
     "geoConst": {
       "oid": "9173c968f3a6db7a15ba366bd1af0a65b6cb7964"
     },
-    "noiseConst": {
-      "oid": "a54803f31c25a50ac848e94c9ea0363ab17d3947"
-    },
-    "noiseVec": {
-      "oid": "b27485570edacb66c2e0376eff7b1972759ed421"
-    },
     "nosystem": {
       "oid": "869a962bc4a7828e2cc8d2c9e7f46f87ed3e345c"
+    },
+    "updates-to-inoisecalocellstool": {
+      "oid": "2f1f79f96705baec1ced37c3ba9657253bd7c576"
     }
   }
 }

@@ -1,0 +1,20 @@
+Bottom: 5c6ecfd82ce97f7304fb18f31ba901461006adc7
+Top:    7a0c871d7d1f0e7b4e2c33ddbad27f692b13c3fd
+Author: sss <sss@karma>
+Date:   2025-10-24 10:52:35 -0400
+
+Updates to INoiseCaloCellsTool and INoiseConstTool.
+
+Make INoiseCaloCellsTool::addRandomCellNoise and filterCellNoise as well as
+INoiseConstTool::getNoiseRMSPerCell and getNoiseRMSPerCell const.
+
+Add new overloads for INoiseCaloCellsTool::addRandomCellNoise and
+filterCellNoise that return a vector of cell/energy pairs rather than a set.
+
+Impementations of this interface in k4RecCalorimeter have already been
+adjusted appropriately:
+
+https://github.com/HEP-FCC/k4RecCalorimeter/pull/177
+https://github.com/HEP-FCC/k4RecCalorimeter/pull/183
+
+Clients should not be affected.

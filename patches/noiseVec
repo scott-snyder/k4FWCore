@@ -1,9 +1,0 @@
-Bottom: 7c621c5d901e54678ba095c4acef63da3886a170
-Top:    7a0c871d7d1f0e7b4e2c33ddbad27f692b13c3fd
-Author: sss <sss@karma>
-Date:   2025-10-24 10:45:38 -0400
-
-Add methods to get noise as a vector rather than a set.
-
-Add new overloads for INoiseCaloCellsTool::addRandomCellNoise and
-filterCellNoise that return a vector of cell/energy pairs rather than a set.
