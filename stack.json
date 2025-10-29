@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "e93715ca4e186cb513fae57ea11786e896d8d8f6",
-  "head": "aec6cc22239cf9b05be9be51b70dff6c2d3b105a",
-  "applied": [],
-  "unapplied": [
+  "prev": "46962e679e9cf17a7e3b11ba558fb2bdf8f8bd8c",
+  "head": "25214c50a5fdf57b88b82f7915d74de4e1666bf8",
+  "applied": [
     "depr",
     "ci",
-    "nosystem",
+    "nosystem"
+  ],
+  "unapplied": [
     "check",
     "danglewarn",
     "cellPositionsConst",
