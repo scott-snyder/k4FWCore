@@ -1,7 +1,7 @@
 Bottom: 283312a0e3ca020b975ff15b1c5dd7f578d351a2
 Top:    c3aeb6d800168cfaf09b6f828018ea2582280ee3
 Author: sss <sss@karma>
-Date:   2025-10-29 09:18:55 -0400
+Date:   2025-10-29 09:19:00 -0400
 
 Make methods of ICellPositionsTool const.
 
