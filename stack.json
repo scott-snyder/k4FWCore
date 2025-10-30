@@ -1,15 +1,15 @@
 {
   "version": 5,
-  "prev": "76a5823139bac62923f73056059ded5c7d0815ab",
-  "head": "56bda691ac1c26c19ced238f3e52475bbf635430",
+  "prev": "db56e9258b989ddf04a1a98c8340aea397139b4a",
+  "head": "25214c50a5fdf57b88b82f7915d74de4e1666bf8",
   "applied": [
     "depr",
     "ci",
-    "nosystem",
-    "check",
-    "cellPositionsConst"
+    "nosystem"
   ],
   "unapplied": [
+    "check",
+    "cellPositionsConst",
     "danglewarn",
     "calibConst",
     "calibVec",
