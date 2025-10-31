@@ -1,8 +1,19 @@
 Bottom: 7da457d52238c5e798ab7c6b46792293613f5f1b
-Top:    c6cbb5fff38d4fbdfd4709264b850b24282884fd
+Top:    c241724e4b9e39cba2dc5459490501444039a4b7
 Author: sss <sss@karma>
-Date:   2025-10-31 15:31:47 -0400
+Date:   2025-10-31 18:32:18 -0400
+
+ICalibrateCaloHitsTool updates.
 
 Make methods of ICalibrateCaloHitsTool const.
 
-Make ICalibrateCaloHitsTool::calibrate const.
+Add a new calibrate method that takes a vector of hit information rather
+than a map.
+
+Derived classes implementing this interface in k4RecCalorimeter have
+been updated:
+
+https://github.com/HEP-FCC/k4RecCalorimeter/pull/186
+https://github.com/HEP-FCC/k4RecCalorimeter/pull/178
+
+Clients should not be affected.
