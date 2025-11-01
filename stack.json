@@ -1,16 +1,16 @@
 {
   "version": 5,
-  "prev": "884de59344e5b9a5cf082d5faf20369007846672",
-  "head": "25214c50a5fdf57b88b82f7915d74de4e1666bf8",
+  "prev": "304acde039ddd83f26ac73002460c45d6b4b6694",
+  "head": "fdd1f8ce777d0bcb54744d407ec946766d8bd9ae",
   "applied": [
     "depr",
     "ci",
-    "nosystem"
+    "nosystem",
+    "cellPositionsConst"
   ],
   "unapplied": [
     "calibConst",
     "check",
-    "cellPositionsConst",
     "danglewarn",
     "geoConst",
     "cellIDs"
@@ -24,7 +24,7 @@
       "oid": "a4390efdce80d9229ae0016177b3d9002d66a53e"
     },
     "cellPositionsConst": {
-      "oid": "56bda691ac1c26c19ced238f3e52475bbf635430"
+      "oid": "fdd1f8ce777d0bcb54744d407ec946766d8bd9ae"
     },
     "check": {
       "oid": "b58497c6d4a95ec565cee7bdafec5fcdb0c2f62e"
