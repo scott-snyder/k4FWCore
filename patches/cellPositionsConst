@@ -1,8 +1,0 @@
-Bottom: 173cf50b6ce55a4ee81e93a0c018fbdca6516d37
-Top:    173cf50b6ce55a4ee81e93a0c018fbdca6516d37
-Author: sss <sss@karma>
-Date:   2025-11-14 11:20:24 -0500
-
-Make methods of ICellPositionsTool const.
-
-Make ICellPositionsTool::getPositions and layerId const.
