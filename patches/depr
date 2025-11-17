@@ -1,0 +1,6 @@
+Bottom: f8d84bceb96d880953d8f4c55741efeb66fbf113
+Top:    906b055954bee3da8000f626aa7adda6a5471b4d
+Author: sss <sss@karma>
+Date:   2025-09-10 17:07:11 -0400
+
+Suppress deprecation warnings.
