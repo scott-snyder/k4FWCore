@@ -1,0 +1,24 @@
+Bottom: 454d2d5ae1a338dd2ea0d353d44ba199c3af9474
+Top:    c59fe77da3d41cd46c15600308b48e0fd279f375
+Author: sss <sss@karma>
+Date:   2025-09-15 14:33:21 -0400
+
+Add K4_GAUDI_CHECK macro.
+
+Add a macro to reduce repetitive code involved in checking for error
+return statuses in Gaudi components.
+
+This allows for example to replace code like
+
+```
+  if (!m_cellPositionsTool.retrieve()) {
+    error() << "Unable to retrieve cell positions tool." << endmsg;
+    return StatusCode::FAILURE;
+  }
+```
+
+with
+
+```
+  K4_GAUDI_CHECK( m_cellPositionsTool.retrieve() );
+```
