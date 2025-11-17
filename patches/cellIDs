@@ -1,0 +1,9 @@
+Bottom: 2fc01f1a463622251b24ea4b301a515e28ae3aac
+Top:    f8d84bceb96d880953d8f4c55741efeb66fbf113
+Author: sss <sss@karma>
+Date:   2025-08-13 15:34:34 -0400
+
+Add ICalorimeterTool::cellIDs.
+
+Add methods to ICalorimeterTool to get just a vector of all valid cell IDs,
+and also to return the segmentation for the geometry.
