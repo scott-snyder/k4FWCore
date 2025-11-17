@@ -1,15 +1,19 @@
 {
   "version": 5,
-  "prev": "04a75d2dbdad742fc13c4e14dba52d1ca8f913ee",
-  "head": "c1132f7ed7148c0a64846baba9c9fe64df266e7d",
+  "prev": "eed3088555f7641fb295375b4e332889d07496c3",
+  "head": "e8f596555ee1e79eeb710973054dbeb5b1e4d2a7",
   "applied": [
-    "check"
+    "check",
+    "geoConst"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "check": {
       "oid": "c1132f7ed7148c0a64846baba9c9fe64df266e7d"
+    },
+    "geoConst": {
+      "oid": "e8f596555ee1e79eeb710973054dbeb5b1e4d2a7"
     }
   }
 }

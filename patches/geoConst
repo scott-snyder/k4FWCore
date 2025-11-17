@@ -1,0 +1,11 @@
+Bottom: c59fe77da3d41cd46c15600308b48e0fd279f375
+Top:    2fc01f1a463622251b24ea4b301a515e28ae3aac
+Author: sss <sss@karma>
+Date:   2025-08-13 11:33:20 -0400
+
+Make some geometry methods const.
+
+Make const:
+  - ICalorimeterTool::prepareEmptyCells
+  - IGeoSvc::getDetector
+  - IGeoSvc::constantAsString
