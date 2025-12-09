@@ -1,13 +1,12 @@
 {
   "version": 5,
-  "prev": "1be6afd2d34ab9e8ce9dd885423e436284a50e4b",
-  "head": "12cf0919dd641c8068b45e29d869340ee0f73ca6",
+  "prev": "1f62e49d7228724f5c15d6bd89ffdaea35038fa1",
+  "head": "8bf03a6091cf3dbdcc602447313323963bc48012",
   "applied": [
     "depr",
     "ci",
     "nosystem",
     "check",
-    "danglewarn",
     "geoConst",
     "cellIDs"
   ],
@@ -15,7 +14,7 @@
   "hidden": [],
   "patches": {
     "cellIDs": {
-      "oid": "12cf0919dd641c8068b45e29d869340ee0f73ca6"
+      "oid": "8bf03a6091cf3dbdcc602447313323963bc48012"
     },
     "check": {
       "oid": "7aff2ea0f77fb61ece08c069835c0b508e907c4d"
@@ -23,14 +22,11 @@
     "ci": {
       "oid": "4bd67faa295107c072a30778048c7796c737d700"
     },
-    "danglewarn": {
-      "oid": "7da626f95fa8d2a2e489622f598683dda8fce513"
-    },
     "depr": {
       "oid": "6cd9a4e3d8637202bfb0b3613c52a253043d27e1"
     },
     "geoConst": {
-      "oid": "c1386fca7a5e27ed166d42f634ab29b6b4ef6251"
+      "oid": "96e689ddb0a0bf80683ca2cebea91a4b2140d1f5"
     },
     "nosystem": {
       "oid": "cde7486001c7e2d6ddbc1909d9ab53ac8c65c49c"
