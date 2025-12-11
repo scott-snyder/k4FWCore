@@ -1,14 +1,15 @@
 {
   "version": 5,
-  "prev": "925e5cdf820677499c89984d763ba4e13a1708ff",
-  "head": "8bf03a6091cf3dbdcc602447313323963bc48012",
+  "prev": "9c49510493894eb2a5c063d05de7fe1685c9810e",
+  "head": "7076ca42100831a21f34e54b04d9dab3ef887732",
   "applied": [
     "depr",
     "ci",
     "nosystem",
     "check",
     "geoConst",
-    "cellIDs"
+    "cellIDs",
+    "gccbug-newxx"
   ],
   "unapplied": [],
   "hidden": [],
@@ -24,6 +25,9 @@
     },
     "depr": {
       "oid": "6cd9a4e3d8637202bfb0b3613c52a253043d27e1"
+    },
+    "gccbug-newxx": {
+      "oid": "7076ca42100831a21f34e54b04d9dab3ef887732"
     },
     "geoConst": {
       "oid": "96e689ddb0a0bf80683ca2cebea91a4b2140d1f5"
