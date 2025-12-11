@@ -17,6 +17,10 @@
  * limitations under the License.
  */
 
+#if __GNUC__ >= 16
+#pragma GCC diagnostic ignored "-Warray-bounds"
+#endif
+
 #include <Gaudi/Accumulators/RootHistogram.h>
 #include <Gaudi/Accumulators/StaticHistogram.h>
 #include <Gaudi/Accumulators/StaticRootHistogram.h>
