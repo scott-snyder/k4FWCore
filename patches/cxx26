@@ -1,0 +1,6 @@
+Bottom: 4fce5cdf9951d4db4f6c0371fb0d073a3b13d3d5
+Top:    4fce5cdf9951d4db4f6c0371fb0d073a3b13d3d5
+Author: sss <sss@karma>
+Date:   2025-12-12 15:49:17 -0500
+
+Enable compiling with C++26.
