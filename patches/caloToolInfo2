@@ -1,0 +1,8 @@
+Bottom: 37e243241912e329a60bbdaa632e79b15959903b
+Top:    37e243241912e329a60bbdaa632e79b15959903b
+Author: sss <sss@karma>
+Date:   2026-01-13 13:28:52 -0500
+
+A couple additional methods for ICalorimeterTool.
+
+Add readoutName() and id() to ICalorimeterTool.

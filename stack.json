@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "50215d0e28eeeb50fa1e105e773d5f6d4aac8a55",
-  "head": "b117044b54f64901745a762a4089642a1403f28e",
+  "prev": "8a50574896ef9c7c505b650bc7cc02f1e5115841",
+  "head": "55619147d791fbe4958fc97c12db757dc1d6e7a0",
   "applied": [
     "depr",
     "ci",
@@ -10,11 +10,15 @@
     "geoConst",
     "cellIDs",
     "gccbug-newxx",
-    "cxx26"
+    "cxx26",
+    "caloToolInfo2"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
+    "caloToolInfo2": {
+      "oid": "55619147d791fbe4958fc97c12db757dc1d6e7a0"
+    },
     "cellIDs": {
       "oid": "8420a1f48625058f3014106b65b4b1c40e5de65c"
     },
