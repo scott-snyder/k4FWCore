@@ -54,6 +54,15 @@ public:
   /** Return the segmentation associated with this geometry.
    */
   virtual const dd4hep::DDSegmentation::Segmentation* segmentation() const = 0;
+
+  /** Return the name specified for the readout.
+   */
+  virtual const std::string& readoutName() const = 0;
+
+
+  /** Return the subdetector ID.
+   */
+  virtual int id() const = 0;
 };
 
 #endif /* RECINTERFACE_ICALORIMETERTOOL_H */
