@@ -58,6 +58,15 @@ public:
    */
   virtual const dd4hep::DDSegmentation::Segmentation* segmentation() const = 0;
 
+  /** Return the name specified for the readout.
+   */
+  virtual const std::string& readoutName() const = 0;
+
+
+  /** Return the subdetector ID.
+   */
+  virtual int id() const = 0;
+
   /** Return a new indexer object for this subdetector.
    *
    * Returns a null pointer if indexing is not implemented.
