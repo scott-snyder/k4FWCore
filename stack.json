@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "7fb7b186b16ec901e4eba7fafdbda2dd31811226",
-  "head": "9170b8d68860dc58823132df7ad8b44ea54c8e56",
+  "prev": "5643c8e935680597abd56a3a1b4b3fd83f403b1f",
+  "head": "8e3a3aba9ed9f63e718a772efd345fb36e226702",
   "applied": [
     "depr",
     "ci",
@@ -11,14 +11,13 @@
     "cellIDs",
     "gccbug-newxx",
     "cxx26",
-    "caloToolInfo2",
-    "refresh-temp"
+    "caloToolInfo2"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
-      "oid": "55619147d791fbe4958fc97c12db757dc1d6e7a0"
+      "oid": "8e3a3aba9ed9f63e718a772efd345fb36e226702"
     },
     "cellIDs": {
       "oid": "8420a1f48625058f3014106b65b4b1c40e5de65c"
@@ -43,9 +42,6 @@
     },
     "nosystem": {
       "oid": "8837494573cf2e5a2754a5655bc03076040c8903"
-    },
-    "refresh-temp": {
-      "oid": "9170b8d68860dc58823132df7ad8b44ea54c8e56"
     }
   }
 }
