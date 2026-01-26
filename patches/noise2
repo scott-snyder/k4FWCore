@@ -1,0 +1,12 @@
+Bottom: d5e5b4a07cbbf0549354a957ff968a017727b9c1
+Top:    c6510fe17d1ccc35b6876b8fdb07f1feac3a68c6
+Author: sss <sss@karma>
+Date:   2026-01-26 17:18:27 -0500
+
+Adding a method to INoiseConstTool to return both RMS/offset.
+
+We usually retrieve from INoiseConstTool both the RMS and offset
+for a given cell.  It is thus more efficient to have a single method
+to return both, so we only need to the cell lookup onces.
+
+This is the second step, adding the new method to INoiseConstTool.
