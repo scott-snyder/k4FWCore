@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "3b8d9bdbe4ca0b71c3b7615177d7544e2ff14418",
-  "head": "1909e7ce9b6c76c8c23951799b2e9bd81cbdee9a",
+  "prev": "cddd98167df6da8cd95311f1b35575786fa6ce90",
+  "head": "b8239df476fecb3fb40f7daeaa368df16c3c7faa",
   "applied": [
     "depr",
     "ci",
@@ -15,8 +15,7 @@
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6",
-    "noise2",
-    "refresh-temp"
+    "noise2"
   ],
   "unapplied": [],
   "hidden": [],
@@ -46,13 +45,10 @@
       "oid": "4a57119a91fa848368959b1a6b0e7cf4180ab644"
     },
     "noise2": {
-      "oid": "54853933a6966ddca51e8e5c91314f6791ac0073"
+      "oid": "b8239df476fecb3fb40f7daeaa368df16c3c7faa"
     },
     "nosystem": {
       "oid": "8837494573cf2e5a2754a5655bc03076040c8903"
-    },
-    "refresh-temp": {
-      "oid": "1909e7ce9b6c76c8c23951799b2e9bd81cbdee9a"
     },
     "xtalkSpan2": {
       "oid": "d02f87ae6734415ee36ad992048e89451d2d6b5f"
