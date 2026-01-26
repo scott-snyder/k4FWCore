@@ -34,9 +34,13 @@ class ICaloReadCrosstalkMap : virtual public IAlgTool {
 public:
   DeclareInterfaceID(ICaloReadCrosstalkMap, 1, 0);
 
-  virtual std::vector<uint64_t> const& getNeighbours(uint64_t /*cellID*/) const { std::abort(); }
-  virtual std::span<const uint64_t> getNeighboursSpan(uint64_t cellID) const = 0;
-  virtual std::vector<double> const& getCrosstalks(uint64_t /*cellID*/) const { std::abort(); }
-  virtual std::span<const double> getCrosstalksSpan(uint64_t cellID) const = 0;
+  virtual std::span<const uint64_t> getNeighbours(uint64_t cellID) const
+  { return getNeighboursSpan(cellID); }
+  virtual std::span<const uint64_t> getNeighboursSpan(uint64_t /*cellID*/) const
+  { std::abort(); }
+  virtual std::span<const double> getCrosstalks(uint64_t cellID) const
+  { return getCrosstalksSpan(cellID); }
+  virtual std::span<const double> getCrosstalksSpan(uint64_t /*cellID*/) const
+  { std::abort(); }
 };
 #endif /* RECINTERFACE_ICALOREADCROSSTALKMAP_H */
