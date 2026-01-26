@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "cecfffc068ad15354888c7980995bc57fb4f5148",
-  "head": "35cfb0323b07556dc7fb0749e72888154beb15e7",
+  "prev": "4a2c07121c15f2a52b5aba89cb999c5d072346ca",
+  "head": "242ce54e089d8f6debf81e0f078382492a47005f",
   "applied": [
     "depr",
     "ci",
@@ -49,7 +49,7 @@
       "oid": "d02f87ae6734415ee36ad992048e89451d2d6b5f"
     },
     "xtalkSpan4": {
-      "oid": "35cfb0323b07556dc7fb0749e72888154beb15e7"
+      "oid": "242ce54e089d8f6debf81e0f078382492a47005f"
     }
   }
 }
