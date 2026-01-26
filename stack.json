@@ -1,18 +1,19 @@
 {
   "version": 5,
-  "prev": "f2d68d74ae629b706439038e098f145ccbc6b960",
-  "head": "82dc4ddb425fa0ea33346b1bd770b7181da73f32",
+  "prev": "b7911e6ef92ad9165d7d19c9ed055235c28d038f",
+  "head": "54db0e8bc2e6090227f8b182ee05399fc2c1b8a2",
   "applied": [
     "check",
     "geoConst",
     "cellIDs",
     "depr",
-    "caloToolInfo2",
+    "caloToolInfo2"
+  ],
+  "unapplied": [
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "check": {
