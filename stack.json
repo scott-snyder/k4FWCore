@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "fcc870ce4d3f59b00809c5cb3eb73dbfb7114ca6",
-  "head": "08880c8652a95c6cca00248f228489536c438a63",
+  "prev": "cd594ac4e19f42ddf98ae6feee3e5273604f2a55",
+  "head": "d02f87ae6734415ee36ad992048e89451d2d6b5f",
   "applied": [
     "depr",
     "ci",
@@ -12,8 +12,7 @@
     "gccbug-newxx",
     "cxx26",
     "caloToolInfo2",
-    "xtalkSpan2",
-    "refresh-temp"
+    "xtalkSpan2"
   ],
   "unapplied": [],
   "hidden": [],
@@ -45,11 +44,8 @@
     "nosystem": {
       "oid": "8837494573cf2e5a2754a5655bc03076040c8903"
     },
-    "refresh-temp": {
-      "oid": "08880c8652a95c6cca00248f228489536c438a63"
-    },
     "xtalkSpan2": {
-      "oid": "eedf39bf4fd12eb1925718e622bd506d97c28e81"
+      "oid": "d02f87ae6734415ee36ad992048e89451d2d6b5f"
     }
   }
 }
