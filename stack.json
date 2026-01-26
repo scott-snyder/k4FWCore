@@ -1,13 +1,14 @@
 {
   "version": 5,
-  "prev": "b3391535ffa3b22f77caf16483882b8a1d27b194",
-  "head": "54db0e8bc2e6090227f8b182ee05399fc2c1b8a2",
+  "prev": "84145c851b32c57aebaa888e1897c18258ac1362",
+  "head": "e7bd0792b8cd2a33be7060c1b00886b8cf544054",
   "applied": [
     "check",
     "geoConst",
     "cellIDs",
     "depr",
-    "caloToolInfo2"
+    "caloToolInfo2",
+    "xtalkSpan2"
   ],
   "unapplied": [],
   "hidden": [],
@@ -26,6 +27,9 @@
     },
     "caloToolInfo2": {
       "oid": "54db0e8bc2e6090227f8b182ee05399fc2c1b8a2"
+    },
+    "xtalkSpan2": {
+      "oid": "e7bd0792b8cd2a33be7060c1b00886b8cf544054"
     }
   }
 }
