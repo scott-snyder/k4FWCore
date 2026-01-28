@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Key4hep-Project.
+ * Copyright (c) 2014-2026 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -19,6 +19,8 @@
 #ifndef RECINTERFACE_ICALORIMETERTOOL_H
 #define RECINTERFACE_ICALORIMETERTOOL_H
 
+#include "k4Interface/ICaloIndexer.h"
+
 // Gaudi
 #include "GaudiKernel/IAlgTool.h"
 
@@ -33,7 +35,17 @@ class ICalorimeterTool : virtual public IAlgTool {
 public:
   DeclareInterfaceID(ICalorimeterTool, 1, 0);
 
+  /** Prepare a map of all existing cells in current geometry.
+   *   @param[out] aCells map of existing cells (and deposited energy, set to 0)
+   *   return Status code.
+   */
   virtual StatusCode prepareEmptyCells(std::unordered_map<uint64_t, double>& aCells) = 0;
+
+  /** Return a new indexer object for this subdetector.
+   *
+   * Returns a null pointer if indexing is not implemented.
+   */
+  virtual std::unique_ptr<ICaloIndexer> indexer() const { return nullptr; }
 };
 
 #endif /* RECINTERFACE_ICALORIMETERTOOL_H */
