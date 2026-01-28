@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "cddd98167df6da8cd95311f1b35575786fa6ce90",
-  "head": "b8239df476fecb3fb40f7daeaa368df16c3c7faa",
+  "prev": "dfd49c55802d1aa866266654d51b40b8683694e7",
+  "head": "dcc6b9ec04d237d5e41f63a3b8f9139f9afe72fc",
   "applied": [
     "depr",
     "ci",
@@ -15,7 +15,8 @@
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6",
-    "noise2"
+    "noise2",
+    "indexing"
   ],
   "unapplied": [],
   "hidden": [],
@@ -43,6 +44,9 @@
     },
     "geoConst": {
       "oid": "4a57119a91fa848368959b1a6b0e7cf4180ab644"
+    },
+    "indexing": {
+      "oid": "dcc6b9ec04d237d5e41f63a3b8f9139f9afe72fc"
     },
     "noise2": {
       "oid": "b8239df476fecb3fb40f7daeaa368df16c3c7faa"

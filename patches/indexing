@@ -1,0 +1,10 @@
+Bottom: 4e9762c69409fce6d874dea4835ea242998673dc
+Top:    4e9762c69409fce6d874dea4835ea242998673dc
+Author: sss <sss@karma>
+Date:   2026-01-28 13:28:44 -0500
+
+Add indexer method to ICalorimeterTool.
+
+Add an indexer() method to ICalorimeterTool, which returns a pointer
+to a new ICaloIndexer object.  This provides an interface for translating
+cellIDs to indices.
