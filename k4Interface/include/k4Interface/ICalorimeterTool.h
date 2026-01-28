@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2024 Key4hep-Project.
+ * Copyright (c) 2014-2026 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -19,16 +19,20 @@
 #ifndef RECINTERFACE_ICALORIMETERTOOL_H
 #define RECINTERFACE_ICALORIMETERTOOL_H
 
+#include "k4Interface/ICaloIndexer.h"
+
 // Gaudi
 #include "GaudiKernel/IAlgTool.h"
 #include <unordered_map>
 #include <vector>
+#include <memory>
 
 namespace dd4hep {
 namespace DDSegmentation {
   class Segmentation;
 }
 } // namespace dd4hep
+
 
 /** @class ICalorimeterTool RecInterface/RecInterface/ICalorimeterTool.h ICalorimeterTool.h
  *
@@ -63,6 +67,16 @@ public:
   /** Return the subdetector ID.
    */
   virtual int id() const = 0;
+
+
+  /** Return a new indexer object for this subdetector.
+   *
+   * Returns a null pointer if indexing is not implemented.
+   */
+  virtual std::unique_ptr<k4::recCalo::ICaloIndexer> indexer() const
+  {
+    return nullptr;
+  }
 };
 
 #endif /* RECINTERFACE_ICALORIMETERTOOL_H */
