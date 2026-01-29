@@ -29,6 +29,7 @@
 #define K4INTERFACE_ICALOINDEXER_H
 
 
+#include <memory>
 #include <span>
 #include <cstdint>
 
@@ -66,6 +67,12 @@ public:
    * @brief Return the set of all identifiers that we index.
    */
   virtual std::span<const uint64_t> cellIDs() const = 0;
+
+
+  /**
+   * @brief Return a copy.
+   */
+  virtual std::unique_ptr<ICaloIndexer> clone() const = 0;
 };
 
 
