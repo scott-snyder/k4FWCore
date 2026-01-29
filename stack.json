@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "b12c1166677d355446d1e8b81421448784ef7046",
-  "head": "b75474ad11a02265ecdd6893526d2a41ebe75f38",
+  "prev": "25f8474b7ba4a7899a881d530cdf6e3e8fa1e709",
+  "head": "d50a3848a2fa0bbbdbb442e1b314579e1ab1b96d",
   "applied": [
     "check",
     "geoConst",
@@ -11,8 +11,7 @@
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6",
-    "noise2",
-    "indexer"
+    "noise2"
   ],
   "unapplied": [],
   "hidden": [],
@@ -43,9 +42,6 @@
     },
     "noise2": {
       "oid": "d50a3848a2fa0bbbdbb442e1b314579e1ab1b96d"
-    },
-    "indexer": {
-      "oid": "b75474ad11a02265ecdd6893526d2a41ebe75f38"
     }
   }
 }
