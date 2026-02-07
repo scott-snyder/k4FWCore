@@ -67,6 +67,12 @@ public:
    * @brief Return the set of all identifiers that we index.
    */
   virtual std::span<const uint64_t> cellIDs() const = 0;
+
+
+  /**
+   * @brief Return the IDs of the detector(s) that we index.
+   */
+  virtual std::span<const int> detIDs() const = 0;
 };
 
 
