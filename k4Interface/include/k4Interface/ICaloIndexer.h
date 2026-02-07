@@ -73,6 +73,12 @@ public:
    * @brief Return the IDs of the detector(s) that we index.
    */
   virtual std::span<const int> detIDs() const = 0;
+
+
+  /**
+   * @brief Number of bits in the cell ID used for the detector ID.
+   */
+  virtual size_t detIDBits() const = 0;
 };
 
 
