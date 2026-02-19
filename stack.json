@@ -1,11 +1,12 @@
 {
   "version": 5,
-  "prev": "6e3fb81d6c58ba6e4210312d01644c39d12a3951",
-  "head": "fc77bef1c837adcfdbe27ba3a6caa03af306741c",
+  "prev": "85cdcfd374cd929d1ac93b32e70fa1ab31e36516",
+  "head": "a71223334132f970c1f07295ceb6f7501a733b29",
   "applied": [
     "depr",
     "nosystem",
-    "indexer"
+    "indexer",
+    "cxx26"
   ],
   "unapplied": [
     "ci",
@@ -13,7 +14,6 @@
     "geoConst",
     "cellIDs",
     "gccbug-newxx",
-    "cxx26",
     "caloToolInfo2",
     "xtalkSpan2",
     "xtalkSpan4",
@@ -35,7 +35,7 @@
       "oid": "71291b4f6417ee7b54333f3236c0b6fd2ae84b7d"
     },
     "cxx26": {
-      "oid": "4ea6519f5ec860b636240d2aa8cb39b3843eecd3"
+      "oid": "a71223334132f970c1f07295ceb6f7501a733b29"
     },
     "depr": {
       "oid": "542793fa992f7ed641822b1b9f9e067b520d13f9"
