@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "2b395feb5e2d013ccd518541f8defcba9dafe109",
-  "head": "acc4e3b961a7a15489fe9d0f1af4f56677e56973",
+  "prev": "e92c9529e92c7616d2b0ab36d1ec5d1e9c5913c3",
+  "head": "ef1c51b5c8e37a024723a1327f038b631970ae28",
   "applied": [
     "depr",
     "nosystem",
@@ -9,8 +9,7 @@
     "cxx26",
     "gccbug-newxx",
     "caloToolx",
-    "cellIDs",
-    "refresh-temp"
+    "cellIDs"
   ],
   "unapplied": [
     "geoConst",
@@ -31,7 +30,7 @@
       "oid": "30913eb22b980829e934848c7e42e7d53dc67243"
     },
     "cellIDs": {
-      "oid": "b76b575bf5eb55ffc5f70bb7201edda3a3e1bd06"
+      "oid": "ef1c51b5c8e37a024723a1327f038b631970ae28"
     },
     "check": {
       "oid": "43084343ca55277a7ca1196621cdeb437f3e7265"
@@ -59,9 +58,6 @@
     },
     "nosystem": {
       "oid": "94af69620722ff1e1bfe08a04c407c44d08874eb"
-    },
-    "refresh-temp": {
-      "oid": "acc4e3b961a7a15489fe9d0f1af4f56677e56973"
     },
     "xtalkSpan2": {
       "oid": "2de0650b9ec1249d5abdc63e2286de620dc40a36"
