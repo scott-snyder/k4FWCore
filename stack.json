@@ -1,13 +1,13 @@
 {
   "version": 5,
-  "prev": "ab384634c84b8e34684d2f7ddce6bc79a62a79e9",
-  "head": "ef51e45ba0cf13511466e45cf31fee699869a164",
+  "prev": "efe6d4130155356450f1b8715acdcb62b50d8a24",
+  "head": "94af69620722ff1e1bfe08a04c407c44d08874eb",
   "applied": [
     "depr",
-    "ci",
     "nosystem"
   ],
   "unapplied": [
+    "ci",
     "check",
     "geoConst",
     "cellIDs",
@@ -53,7 +53,7 @@
       "oid": "e2605273b94fd61a0f1f5a032eaba9daab12c3e8"
     },
     "nosystem": {
-      "oid": "ef51e45ba0cf13511466e45cf31fee699869a164"
+      "oid": "94af69620722ff1e1bfe08a04c407c44d08874eb"
     },
     "xtalkSpan2": {
       "oid": "2de0650b9ec1249d5abdc63e2286de620dc40a36"
