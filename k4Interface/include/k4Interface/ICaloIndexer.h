@@ -47,7 +47,7 @@ public:
   /// Index type.
   using index_t = uint32_t;
   static constexpr index_t INVALID = static_cast<index_t>(-1);
-  
+
   virtual ~ICaloIndexer() = default;
 
 
