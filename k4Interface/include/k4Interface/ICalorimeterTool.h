@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2026 Key4hep-Project.
+ * Copyright (c) 2014-2024 Key4hep-Project.
  *
  * This file is part of Key4hep.
  * See https://key4hep.github.io/key4hep-doc/ for further info.
@@ -32,7 +32,6 @@ namespace DDSegmentation {
 }
 } // namespace dd4hep
 
-
 /** @class ICalorimeterTool RecInterface/RecInterface/ICalorimeterTool.h ICalorimeterTool.h
  *
  *  Abstract interface to calorimeter geometry tool
@@ -62,7 +61,6 @@ public:
    */
   virtual const std::string& readoutName() const = 0;
 
-
   /** Return the subdetector ID.
    */
   virtual int id() const = 0;
@@ -71,10 +69,7 @@ public:
    *
    * Returns a null pointer if indexing is not implemented.
    */
-  virtual std::unique_ptr<ICaloIndexer> indexer() const
-  {
-    return nullptr;
-  }
+  virtual std::unique_ptr<ICaloIndexer> indexer() const { return nullptr; }
 };
 
 #endif /* RECINTERFACE_ICALORIMETERTOOL_H */
