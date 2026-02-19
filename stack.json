@@ -1,14 +1,15 @@
 {
   "version": 5,
-  "prev": "15c509c2ef3bebfffab8025c4f75918dbb3f16c3",
-  "head": "f84a9fd3f5906196476349fe2aeb9fc735790a49",
+  "prev": "fdbb0cc146f188fe57b7ec29944f1522db084e5e",
+  "head": "d56834c5bb5b166230486fc880d994e201bf280f",
   "applied": [
     "depr",
     "nosystem",
     "indexer",
     "cxx26",
     "gccbug-newxx",
-    "geoConst"
+    "geoConst",
+    "caloToolx"
   ],
   "unapplied": [
     "ci",
@@ -24,6 +25,9 @@
   "patches": {
     "caloToolInfo2": {
       "oid": "40a671b18d59680b2f4eaf72d27b87fc148d7439"
+    },
+    "caloToolx": {
+      "oid": "d56834c5bb5b166230486fc880d994e201bf280f"
     },
     "cellIDs": {
       "oid": "856bdf7870f01c7b31bf7e9a18ecfb58b6329787"
