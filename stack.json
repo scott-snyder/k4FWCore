@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "e92c9529e92c7616d2b0ab36d1ec5d1e9c5913c3",
-  "head": "ef1c51b5c8e37a024723a1327f038b631970ae28",
+  "prev": "65fe4ae91e4796cf6f533d428a636cd513f92526",
+  "head": "3c03e6ae5c72712b51b92ac232bc053dac316678",
   "applied": [
     "depr",
     "nosystem",
@@ -9,13 +9,13 @@
     "cxx26",
     "gccbug-newxx",
     "caloToolx",
-    "cellIDs"
+    "cellIDs",
+    "caloToolInfo2"
   ],
   "unapplied": [
     "geoConst",
     "ci",
     "check",
-    "caloToolInfo2",
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6",
@@ -24,7 +24,7 @@
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
-      "oid": "40a671b18d59680b2f4eaf72d27b87fc148d7439"
+      "oid": "3c03e6ae5c72712b51b92ac232bc053dac316678"
     },
     "caloToolx": {
       "oid": "30913eb22b980829e934848c7e42e7d53dc67243"
