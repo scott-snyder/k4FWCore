@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "679e90e0782aad9e7a53c17d0c166797311742e6",
+  "prev": "d451ff42a779deed7814c0f72433e94848d7df16",
   "head": "7a99af7735e920b6fa026ac4cd0d6cd9d8f3dc05",
   "applied": [
     "depr",
@@ -8,7 +8,7 @@
     "indexer",
     "cxx26",
     "gccbug-newxx",
-    "calotoolx-1"
+    "caloToolInfo2"
   ],
   "unapplied": [
     "geoConst",
@@ -21,7 +21,7 @@
   ],
   "hidden": [],
   "patches": {
-    "calotoolx-1": {
+    "caloToolInfo2": {
       "oid": "7a99af7735e920b6fa026ac4cd0d6cd9d8f3dc05"
     },
     "check": {
