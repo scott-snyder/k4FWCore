@@ -35,6 +35,6 @@ public:
   DeclareInterfaceID(ICaloReadCrosstalkMap, 1, 0);
 
   virtual std::span<const uint64_t> getNeighbours(uint64_t cellID) const = 0;
-  virtual std::span<const double>   getCrosstalks(uint64_t cellID) const = 0;
+  virtual std::span<const double> getCrosstalks(uint64_t cellID) const = 0;
 };
 #endif /* RECINTERFACE_ICALOREADCROSSTALKMAP_H */
