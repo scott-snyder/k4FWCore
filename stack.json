@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "3df8ae76b415cfce949754f4fe538195cc9e43b1",
-  "head": "b0e43d213185494ce0b3cb50930badb905407315",
+  "prev": "6d0efa91a36850ecef96c31129923d42fef2b642",
+  "head": "3f81c90dcbac9746c5f54108ad2c193470eea31d",
   "applied": [
     "depr",
     "nosystem",
@@ -14,10 +14,11 @@
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6",
-    "noise2",
+    "noise2"
+  ],
+  "unapplied": [
     "ci"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
