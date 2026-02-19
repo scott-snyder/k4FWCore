@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "755bfaffae7d91345698fbd0ca9072e5d352d972",
-  "head": "7ab9113ff3cea10decc4f467a9f0046cca687ac4",
+  "prev": "1ff3b39333db4f2dfa9ce1955005cfa14dcb5313",
+  "head": "83f66fba0368c98dfffcd7fa52cf14ebb216fbda",
   "applied": [
     "depr",
     "nosystem",
@@ -14,8 +14,7 @@
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6",
-    "noise2",
-    "refresh-temp"
+    "noise2"
   ],
   "unapplied": [
     "ci"
@@ -23,46 +22,43 @@
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
-      "oid": "a3f0655b17d73e941c6158d5f359dee7c5887226"
+      "oid": "c172039354cea5e288de442a40e7b1e0d05a3003"
     },
     "check": {
-      "oid": "051ef36789b4ebb44e6eab20c693401b795ac9ac"
+      "oid": "677a72e8fe7a3fa9d326c439935ef1a90a655f63"
     },
     "ci": {
       "oid": "d24d0c014b7f7740ceb16b1e85ee8451750ec11c"
     },
     "cxx26": {
-      "oid": "a71223334132f970c1f07295ceb6f7501a733b29"
+      "oid": "a4c731dd8ae936add72062a4b3995ff76719a0fa"
     },
     "depr": {
       "oid": "542793fa992f7ed641822b1b9f9e067b520d13f9"
     },
     "gccbug-newxx": {
-      "oid": "74d0e8c12db10e5c26b91ce1b649654131da9e65"
+      "oid": "17bb67b8458e12ccbb11b2a9f33d4721d81fb915"
     },
     "geoConst": {
-      "oid": "0aad3560b49e94c7fb3272eb80725999254e3ec9"
+      "oid": "835d2120df2208d40adae31a486c6536f837dd05"
     },
     "indexer": {
-      "oid": "fc77bef1c837adcfdbe27ba3a6caa03af306741c"
+      "oid": "e41859d70d136137a3fd5361589d5ee491e21872"
     },
     "noise2": {
-      "oid": "1a25421b14099ff47ba1a53f416afdadeb9bd009"
+      "oid": "83f66fba0368c98dfffcd7fa52cf14ebb216fbda"
     },
     "nosystem": {
       "oid": "94af69620722ff1e1bfe08a04c407c44d08874eb"
     },
-    "refresh-temp": {
-      "oid": "7ab9113ff3cea10decc4f467a9f0046cca687ac4"
-    },
     "xtalkSpan2": {
-      "oid": "700a829cca2f8c259b2cb521f694e15313d48b27"
+      "oid": "d4495f3e81bd06b0fc38ac2cc200580ce23055a3"
     },
     "xtalkSpan4": {
-      "oid": "0e44a7ae223613031d8db3a74bedd103c31ea016"
+      "oid": "857614218629295803cc6862eebb5da84889465d"
     },
     "xtalkSpan6": {
-      "oid": "8627148c72b1e2b69db8fcb0613e5fddd8ef8b5f"
+      "oid": "6ebd0bdce5734670e8c7507d0e4a0db33b235aa9"
     }
   }
 }
