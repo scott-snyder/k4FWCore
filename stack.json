@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "bc0ae4d4c4f596eef24c4b423868007aea00b2ba",
-  "head": "dce1e50a9e48611abd783f3b58ee7a6a870bea20",
+  "prev": "ae94d8df4e10436a66f621b7eb8529bd12d70ab2",
+  "head": "0898799199bc5f55458293dbc9529bba584ed062",
   "applied": [
     "depr",
     "nosystem",
@@ -14,8 +14,7 @@
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6",
-    "noise2",
-    "refresh-temp"
+    "noise2"
   ],
   "unapplied": [
     "ci"
@@ -23,10 +22,10 @@
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
-      "oid": "7a99af7735e920b6fa026ac4cd0d6cd9d8f3dc05"
+      "oid": "a3f0655b17d73e941c6158d5f359dee7c5887226"
     },
     "check": {
-      "oid": "113cb9168162b2b5d78e3f155e9fbd2a07c15f94"
+      "oid": "051ef36789b4ebb44e6eab20c693401b795ac9ac"
     },
     "ci": {
       "oid": "d24d0c014b7f7740ceb16b1e85ee8451750ec11c"
@@ -38,31 +37,28 @@
       "oid": "542793fa992f7ed641822b1b9f9e067b520d13f9"
     },
     "gccbug-newxx": {
-      "oid": "09a95a82741a96750d5bac96c91fb8056ec9944e"
+      "oid": "74d0e8c12db10e5c26b91ce1b649654131da9e65"
     },
     "geoConst": {
-      "oid": "e9480cee4ed9373f6b0e03723654c05da33792e5"
+      "oid": "0aad3560b49e94c7fb3272eb80725999254e3ec9"
     },
     "indexer": {
       "oid": "fc77bef1c837adcfdbe27ba3a6caa03af306741c"
     },
     "noise2": {
-      "oid": "d68abd5e6f0e047b5282c30b28bdb8a683f6d7ab"
+      "oid": "0898799199bc5f55458293dbc9529bba584ed062"
     },
     "nosystem": {
       "oid": "94af69620722ff1e1bfe08a04c407c44d08874eb"
     },
-    "refresh-temp": {
-      "oid": "dce1e50a9e48611abd783f3b58ee7a6a870bea20"
-    },
     "xtalkSpan2": {
-      "oid": "883a54e7dcad436e1946e0e23ca5919460f9c88b"
+      "oid": "700a829cca2f8c259b2cb521f694e15313d48b27"
     },
     "xtalkSpan4": {
-      "oid": "f63c7231898598374416eca7080cc025d030beda"
+      "oid": "0e44a7ae223613031d8db3a74bedd103c31ea016"
     },
     "xtalkSpan6": {
-      "oid": "e643596852891560e4a81a897b445ce7fbb914d1"
+      "oid": "80e5118181962e02964224b682018f914581c482"
     }
   }
 }
