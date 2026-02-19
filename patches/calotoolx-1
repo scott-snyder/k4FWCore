@@ -1,15 +1,11 @@
 Bottom: 1729ec9b170690c50d23bd1efca294020a0bfe1a
 Top:    7fb75cfc0f8de6eacd1cd07121cdb20c891867b6
 Author: sss <sss@karma>
-Date:   2026-02-19 03:51:27 -0500
+Date:   2026-02-19 04:33:46 -0500
 
-caloToolX
+Additions to ICalorimeterTool.
 
-Add ICalorimeterTool::cellIDs.
+Add cellIDs(), segmentation(), readoutName(), and id().
+Also change prepareEmptyCells to be const.
 
-Add methods to ICalorimeterTool to get just a vector of all valid cell IDs,
-and also to return the segmentation for the geometry.
-
-A couple additional methods for ICalorimeterTool.
-
-Add readoutName() and id() to ICalorimeterTool.
+Corresponding changes have already been made in derived classes.

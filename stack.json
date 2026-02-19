@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "cc57c3d5415830dcb56e39ebafc589cd303360a5",
-  "head": "65b3bcb61827ce5b6f58d8c760c3e40339ed4334",
+  "prev": "679e90e0782aad9e7a53c17d0c166797311742e6",
+  "head": "7a99af7735e920b6fa026ac4cd0d6cd9d8f3dc05",
   "applied": [
     "depr",
     "nosystem",
@@ -22,7 +22,7 @@
   "hidden": [],
   "patches": {
     "calotoolx-1": {
-      "oid": "65b3bcb61827ce5b6f58d8c760c3e40339ed4334"
+      "oid": "7a99af7735e920b6fa026ac4cd0d6cd9d8f3dc05"
     },
     "check": {
       "oid": "43084343ca55277a7ca1196621cdeb437f3e7265"
