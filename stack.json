@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "fdbb0cc146f188fe57b7ec29944f1522db084e5e",
-  "head": "d56834c5bb5b166230486fc880d994e201bf280f",
+  "prev": "f204a385c33efb26b6c918881a4b707a7c1b3abe",
+  "head": "9647d9a1fd6cfa07f99bc4a5190ab5f9858f6435",
   "applied": [
     "depr",
     "nosystem",
@@ -9,7 +9,8 @@
     "cxx26",
     "gccbug-newxx",
     "geoConst",
-    "caloToolx"
+    "caloToolx",
+    "refresh-temp"
   ],
   "unapplied": [
     "ci",
@@ -58,6 +59,9 @@
     },
     "nosystem": {
       "oid": "94af69620722ff1e1bfe08a04c407c44d08874eb"
+    },
+    "refresh-temp": {
+      "oid": "9647d9a1fd6cfa07f99bc4a5190ab5f9858f6435"
     },
     "xtalkSpan2": {
       "oid": "2de0650b9ec1249d5abdc63e2286de620dc40a36"
