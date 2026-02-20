@@ -1,8 +1,9 @@
 {
   "version": 5,
-  "prev": "d210428f17c5f5f981bc0c0b2847bb905d38c206",
-  "head": "84ce2cbbd800fd2d815d8c67c6316521dab70954",
-  "applied": [
+  "prev": "0b282dbb6b3050212ae4e035b41a16d35ff8dc0b",
+  "head": "7d6b11de1d11ac26e63eb5f1c98875ca497d904f",
+  "applied": [],
+  "unapplied": [
     "depr",
     "nosystem",
     "cxx26",
@@ -14,9 +15,7 @@
     "xtalkSpan4",
     "xtalkSpan6",
     "noise2",
-    "check"
-  ],
-  "unapplied": [
+    "check",
     "ci"
   ],
   "hidden": [],
