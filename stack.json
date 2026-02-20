@@ -1,13 +1,13 @@
 {
   "version": 5,
-  "prev": "a8586260408437cdccbcb4182cb08a30537f9e51",
-  "head": "e8d8538b2f15c1b35a0329adc195961c4c49cd32",
+  "prev": "2b3104fc231229b3a1bc505a24a7dfd9ab8d921d",
+  "head": "9c751274ec67f4b4e61c68aeac38ce09bd36cda4",
   "applied": [
     "depr",
-    "nosystem"
+    "nosystem",
+    "cxx26"
   ],
   "unapplied": [
-    "cxx26",
     "indexer",
     "gccbug-newxx",
     "caloToolInfo2",
