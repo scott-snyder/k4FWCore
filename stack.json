@@ -1,14 +1,14 @@
 {
   "version": 5,
-  "prev": "2b3104fc231229b3a1bc505a24a7dfd9ab8d921d",
-  "head": "9c751274ec67f4b4e61c68aeac38ce09bd36cda4",
+  "prev": "93c7c9ad3341a5fdb0b789eb59599ace02287621",
+  "head": "8785267d9c44426e69989ef074e9d9e01b5028bd",
   "applied": [
     "depr",
     "nosystem",
-    "cxx26"
+    "cxx26",
+    "indexer"
   ],
   "unapplied": [
-    "indexer",
     "gccbug-newxx",
     "caloToolInfo2",
     "geoConst",
