@@ -1,14 +1,13 @@
 {
   "version": 5,
-  "prev": "31df5beb5eaeaec540eb893cd852762476421ebe",
-  "head": "c408035f685987fac3c1958a19cbdc76a522304a",
+  "prev": "f057c5498cf1e2516576a88a324bb0b96e218767",
+  "head": "b2368e27ab60b91e3761bab987fd306bd39d97e6",
   "applied": [
     "depr",
     "nosystem",
     "cxx26",
     "indexer",
-    "ci",
-    "refresh-temp"
+    "ci"
   ],
   "unapplied": [
     "gccbug-newxx",
@@ -29,7 +28,7 @@
       "oid": "84ce2cbbd800fd2d815d8c67c6316521dab70954"
     },
     "ci": {
-      "oid": "ef709f2a85a1979fde19120da71301d00401aadc"
+      "oid": "b2368e27ab60b91e3761bab987fd306bd39d97e6"
     },
     "cxx26": {
       "oid": "9c751274ec67f4b4e61c68aeac38ce09bd36cda4"
@@ -44,16 +43,13 @@
       "oid": "918a2dc85170d1fa45e67fae61f37993f1a8c447"
     },
     "indexer": {
-      "oid": "8785267d9c44426e69989ef074e9d9e01b5028bd"
+      "oid": "f04ee029ef075a04b7cbb70752e28c818e436fb0"
     },
     "noise2": {
       "oid": "cc3aa6f73408bf64fb33b909a70c135f6ae7bc00"
     },
     "nosystem": {
       "oid": "e8d8538b2f15c1b35a0329adc195961c4c49cd32"
-    },
-    "refresh-temp": {
-      "oid": "c408035f685987fac3c1958a19cbdc76a522304a"
     },
     "xtalkSpan2": {
       "oid": "292e601a7997c77dfd28898552e97386d3f9e546"
