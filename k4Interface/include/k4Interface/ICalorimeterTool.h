@@ -24,7 +24,6 @@
 // Gaudi
 #include "GaudiKernel/IAlgTool.h"
 
-
 /** @class ICalorimeterTool RecInterface/RecInterface/ICalorimeterTool.h ICalorimeterTool.h
  *
  *  Abstract interface to calorimeter geometry tool
@@ -46,10 +45,7 @@ public:
    *
    * Returns a null pointer if indexing is not implemented.
    */
-  virtual std::unique_ptr<ICaloIndexer> indexer() const
-  {
-    return nullptr;
-  }
+  virtual std::unique_ptr<ICaloIndexer> indexer() const { return nullptr; }
 };
 
 #endif /* RECINTERFACE_ICALORIMETERTOOL_H */
