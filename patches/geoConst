@@ -1,0 +1,10 @@
+Bottom: 0e70a74e0998022aaa8263237b61e11cab23c470
+Top:    b7f2dbca9860615c871ee173a30e1c4a70df63d0
+Author: sss <sss@karma>
+Date:   2025-08-13 11:33:20 -0400
+
+Make some geometry methods const.
+
+Make const:
+  - IGeoSvc::getDetector
+  - IGeoSvc::constantAsString
