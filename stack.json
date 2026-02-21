@@ -1,13 +1,15 @@
 {
   "version": 5,
-  "prev": "895c191e49789c491b08e2fe237546e395835252",
-  "head": "43a2bd98a3830fe0393b5f3ffe2c0b4b32a5c785",
+  "prev": "93315300105208a8d6d20e0be9e83985e8582e69",
+  "head": "a9b8371a8826b7b5c1dd1831ce7215f5a783e043",
   "applied": [
     "depr",
     "nosystem",
     "cxx26",
     "indexer",
-    "ci",
+    "ci"
+  ],
+  "unapplied": [
     "gccbug-newxx",
     "caloToolInfo2",
     "geoConst",
@@ -17,7 +19,6 @@
     "noise2",
     "check"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
