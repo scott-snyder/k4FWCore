@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "ce464af5dab36feec4dbc94b5dda66cece050887",
-  "head": "b52f166c6d7be0f00b4ef84ae727f7aef70e8af0",
+  "prev": "e834a536697fc5136e66a1da849373b1e28ae48a",
+  "head": "56d43845a61c7cd0ee30cf4e5d11a64966f87e9a",
   "applied": [
     "depr",
     "nosystem",
@@ -9,8 +9,7 @@
     "indexer",
     "ci",
     "gccbug-newxx",
-    "caloToolInfo2",
-    "refresh-temp"
+    "caloToolInfo2"
   ],
   "unapplied": [
     "geoConst",
@@ -23,7 +22,7 @@
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
-      "oid": "229802651c4b491ef12fa0728a73f61ee580b162"
+      "oid": "56d43845a61c7cd0ee30cf4e5d11a64966f87e9a"
     },
     "check": {
       "oid": "84ce2cbbd800fd2d815d8c67c6316521dab70954"
@@ -51,9 +50,6 @@
     },
     "nosystem": {
       "oid": "e8d8538b2f15c1b35a0329adc195961c4c49cd32"
-    },
-    "refresh-temp": {
-      "oid": "b52f166c6d7be0f00b4ef84ae727f7aef70e8af0"
     },
     "xtalkSpan2": {
       "oid": "292e601a7997c77dfd28898552e97386d3f9e546"
