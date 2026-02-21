@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "29c18d998c74865043b83cfc62892b6db536e67f",
-  "head": "b4ebbffb30263cbc18bb2bde15ebeb419ab35176",
+  "prev": "77f5877d5e1b9bb2bbe8152fd5431b3de60a3d86",
+  "head": "add5804dda8fe7ae60e01de29f4438609dd170ce",
   "applied": [
     "depr",
     "indexer",
-    "caloToolInfo2",
-    "geoConst"
+    "caloToolInfo2"
   ],
   "unapplied": [
     "check",
@@ -26,9 +25,6 @@
     },
     "caloToolInfo2": {
       "oid": "add5804dda8fe7ae60e01de29f4438609dd170ce"
-    },
-    "geoConst": {
-      "oid": "b4ebbffb30263cbc18bb2bde15ebeb419ab35176"
     },
     "check": {
       "oid": "ba1e88c270b4022113e21963a65bb47060dc151f"
