@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "42e74ee98578e6ed49627f06cf419b12ef4ecc0c",
+  "prev": "160ee8209ffc4a75eb56f59004070bef5bcf6b43",
   "head": "41e83237f40107a0ace73e7ae7694a28047490d1",
   "applied": [
     "depr"
@@ -13,8 +13,7 @@
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6",
-    "noise2",
-    "indexer"
+    "noise2"
   ],
   "hidden": [],
   "patches": {
@@ -44,9 +43,6 @@
     },
     "noise2": {
       "oid": "06fb9400efefdea8db7a70606895c699fdd31d53"
-    },
-    "indexer": {
-      "oid": "c08571b5bcdf7829a7a34a17ab0839423004636f"
     }
   }
 }
