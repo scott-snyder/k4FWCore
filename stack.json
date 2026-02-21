@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "93c7c9ad3341a5fdb0b789eb59599ace02287621",
-  "head": "8785267d9c44426e69989ef074e9d9e01b5028bd",
+  "prev": "d51c22db9ebf74ff36b6f2fd40d0770a1a91e619",
+  "head": "ef709f2a85a1979fde19120da71301d00401aadc",
   "applied": [
     "depr",
     "nosystem",
     "cxx26",
-    "indexer"
+    "indexer",
+    "ci"
   ],
   "unapplied": [
     "gccbug-newxx",
@@ -16,8 +17,7 @@
     "xtalkSpan4",
     "xtalkSpan6",
     "noise2",
-    "check",
-    "ci"
+    "check"
   ],
   "hidden": [],
   "patches": {
@@ -28,7 +28,7 @@
       "oid": "84ce2cbbd800fd2d815d8c67c6316521dab70954"
     },
     "ci": {
-      "oid": "fec8b5d47a23bd3294efec6b4001124882fe7a0d"
+      "oid": "ef709f2a85a1979fde19120da71301d00401aadc"
     },
     "cxx26": {
       "oid": "9c751274ec67f4b4e61c68aeac38ce09bd36cda4"
