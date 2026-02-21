@@ -1,17 +1,17 @@
 {
   "version": 5,
-  "prev": "f057c5498cf1e2516576a88a324bb0b96e218767",
-  "head": "b2368e27ab60b91e3761bab987fd306bd39d97e6",
+  "prev": "8f85c3131370fb74c90367cd44526cdf0e615301",
+  "head": "229802651c4b491ef12fa0728a73f61ee580b162",
   "applied": [
     "depr",
     "nosystem",
     "cxx26",
     "indexer",
-    "ci"
+    "ci",
+    "gccbug-newxx",
+    "caloToolInfo2"
   ],
   "unapplied": [
-    "gccbug-newxx",
-    "caloToolInfo2",
     "geoConst",
     "xtalkSpan2",
     "xtalkSpan4",
@@ -22,7 +22,7 @@
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
-      "oid": "881afc2bdc7ae9e5a3226b9c0f0061b1ce39bf64"
+      "oid": "229802651c4b491ef12fa0728a73f61ee580b162"
     },
     "check": {
       "oid": "84ce2cbbd800fd2d815d8c67c6316521dab70954"
@@ -37,7 +37,7 @@
       "oid": "c3fc63f5ecc764003545cf396fe1435fb4792753"
     },
     "gccbug-newxx": {
-      "oid": "a50b23facd92899f91745936de4563b640a282c1"
+      "oid": "2ac6acf029fb4ed42dbf82a00368bb6e4a1ce4f9"
     },
     "geoConst": {
       "oid": "918a2dc85170d1fa45e67fae61f37993f1a8c447"
