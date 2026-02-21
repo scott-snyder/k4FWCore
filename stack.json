@@ -1,13 +1,14 @@
 {
   "version": 5,
-  "prev": "d51c22db9ebf74ff36b6f2fd40d0770a1a91e619",
-  "head": "ef709f2a85a1979fde19120da71301d00401aadc",
+  "prev": "31df5beb5eaeaec540eb893cd852762476421ebe",
+  "head": "c408035f685987fac3c1958a19cbdc76a522304a",
   "applied": [
     "depr",
     "nosystem",
     "cxx26",
     "indexer",
-    "ci"
+    "ci",
+    "refresh-temp"
   ],
   "unapplied": [
     "gccbug-newxx",
@@ -50,6 +51,9 @@
     },
     "nosystem": {
       "oid": "e8d8538b2f15c1b35a0329adc195961c4c49cd32"
+    },
+    "refresh-temp": {
+      "oid": "c408035f685987fac3c1958a19cbdc76a522304a"
     },
     "xtalkSpan2": {
       "oid": "292e601a7997c77dfd28898552e97386d3f9e546"
