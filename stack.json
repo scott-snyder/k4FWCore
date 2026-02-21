@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "b6a5ad0e0bd38c7035f6810110f7189411f825e4",
+  "prev": "b8bb726641517f0bb1688b9ea3b1bf2f9513a349",
   "head": "b39a5427bd3e8c95c211bb8bfcda75aa4dc7fbfb",
   "applied": [
     "depr",
@@ -13,7 +13,6 @@
   ],
   "unapplied": [
     "cellIDs",
-    "xtalkSpan6",
     "noise2"
   ],
   "hidden": [],
@@ -41,9 +40,6 @@
     },
     "cellIDs": {
       "oid": "8364c4a652ae30737c7f39dcfd41598620663bdd"
-    },
-    "xtalkSpan6": {
-      "oid": "3678c1f94f42b59930b8f99b44aaedfcf97c7bdf"
     },
     "noise2": {
       "oid": "06fb9400efefdea8db7a70606895c699fdd31d53"
