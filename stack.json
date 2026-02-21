@@ -1,15 +1,13 @@
 {
   "version": 5,
-  "prev": "9890abb732cf37eda68d921e924931750f32302f",
-  "head": "a9b8371a8826b7b5c1dd1831ce7215f5a783e043",
+  "prev": "895c191e49789c491b08e2fe237546e395835252",
+  "head": "43a2bd98a3830fe0393b5f3ffe2c0b4b32a5c785",
   "applied": [
     "depr",
     "nosystem",
     "cxx26",
     "indexer",
-    "ci"
-  ],
-  "unapplied": [
+    "ci",
     "gccbug-newxx",
     "caloToolInfo2",
     "geoConst",
@@ -19,13 +17,14 @@
     "noise2",
     "check"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
-      "oid": "56d43845a61c7cd0ee30cf4e5d11a64966f87e9a"
+      "oid": "4c3c8559fe6ff37400b32892e8465ec49fbfa10c"
     },
     "check": {
-      "oid": "77cbf8169793c0a615182d08b10bc985f771177c"
+      "oid": "43a2bd98a3830fe0393b5f3ffe2c0b4b32a5c785"
     },
     "ci": {
       "oid": "a9b8371a8826b7b5c1dd1831ce7215f5a783e043"
@@ -37,28 +36,28 @@
       "oid": "c3fc63f5ecc764003545cf396fe1435fb4792753"
     },
     "gccbug-newxx": {
-      "oid": "2ac6acf029fb4ed42dbf82a00368bb6e4a1ce4f9"
+      "oid": "f04ddf1274725b400dfe165137d35fb470b4cf92"
     },
     "geoConst": {
-      "oid": "25d1daae7aee3cfabd932b2f158e906f3fedac1b"
+      "oid": "24a729b11b4ff8d37c06770ef55191ca8206f089"
     },
     "indexer": {
       "oid": "9535f04ca598099a4ed2afdb1eb77abb8a799eb8"
     },
     "noise2": {
-      "oid": "86543baafe530d45e3648ce9bac51c72f51a6a70"
+      "oid": "66bc766f7e44b8691e66f920896ee1e1bd4611df"
     },
     "nosystem": {
       "oid": "e8d8538b2f15c1b35a0329adc195961c4c49cd32"
     },
     "xtalkSpan2": {
-      "oid": "8f665dd076f85086297f84d5db4956d77dd0596e"
+      "oid": "1f47a6c40da636c01f679ee2f214c985b64fe370"
     },
     "xtalkSpan4": {
-      "oid": "7a4ced949de682b0abf7f3b629b9b919499b8861"
+      "oid": "1157a1251e549d25e3ebb9daf096072864a549c9"
     },
     "xtalkSpan6": {
-      "oid": "e35fa4b6f564bb979077af58ea100a4a284aeaf0"
+      "oid": "bb9b90518946f7d752ea5aa1fc77ad2ee7beb596"
     }
   }
 }
