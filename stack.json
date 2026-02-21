@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "3b8abe4205a9eea9eae06536d491ede659f8a55d",
+  "prev": "14d034e97a649fd98663e8b719fe93b8fe144ed0",
   "head": "41e83237f40107a0ace73e7ae7694a28047490d1",
   "applied": [
     "depr"
   ],
   "unapplied": [
-    "indexer",
     "caloToolInfo2",
     "geoConst",
     "check",
@@ -19,9 +18,6 @@
   "patches": {
     "depr": {
       "oid": "41e83237f40107a0ace73e7ae7694a28047490d1"
-    },
-    "indexer": {
-      "oid": "fdf2f2851b24a47b69ead0f1432b485435fb2378"
     },
     "caloToolInfo2": {
       "oid": "add5804dda8fe7ae60e01de29f4438609dd170ce"
