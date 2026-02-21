@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "e5f11f9898239d8f0fbafa66b630d6fe213511f5",
+  "prev": "19e29ec38bf659ed51936f68ee6656384c89786a",
   "head": "fdf2f2851b24a47b69ead0f1432b485435fb2378",
   "applied": [
     "depr",
@@ -10,7 +10,6 @@
     "check",
     "geoConst",
     "cellIDs",
-    "caloToolInfo2",
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6",
@@ -32,9 +31,6 @@
     },
     "cellIDs": {
       "oid": "8364c4a652ae30737c7f39dcfd41598620663bdd"
-    },
-    "caloToolInfo2": {
-      "oid": "7764103bef98ee35f42ff6d77200759aaefdbd1a"
     },
     "xtalkSpan2": {
       "oid": "f1b72081d719f1daf7c4d75edba7165d617f4125"

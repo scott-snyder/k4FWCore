@@ -1,8 +1,0 @@
-Bottom: 014eccf066f3c8fffe6799cd6c46f1d1d91852a4
-Top:    afd378dada82e807a9bde1a53f41ed3855f8ff9e
-Author: sss <sss@karma>
-Date:   2026-01-13 13:28:52 -0500
-
-A couple additional methods for ICalorimeterTool.
-
-Add readoutName() and id() to ICalorimeterTool.
