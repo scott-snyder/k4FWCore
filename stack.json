@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "531ddb1915ba1bbfa5981ce34944886f3be4b7a1",
-  "head": "77cbf8169793c0a615182d08b10bc985f771177c",
+  "prev": "c5083656602c2edf800dee8fa77538bf9a3b138f",
+  "head": "56d43845a61c7cd0ee30cf4e5d11a64966f87e9a",
   "applied": [
     "depr",
     "nosystem",
@@ -9,7 +9,9 @@
     "indexer",
     "ci",
     "gccbug-newxx",
-    "caloToolInfo2",
+    "caloToolInfo2"
+  ],
+  "unapplied": [
     "geoConst",
     "xtalkSpan2",
     "xtalkSpan4",
@@ -17,7 +19,6 @@
     "noise2",
     "check"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
