@@ -1,18 +1,18 @@
 {
   "version": 5,
-  "prev": "2f6bf00d206ef7dec16b0fce3f67766b01664c46",
-  "head": "993e91aa942b6789c7013b1159c52f5241d19971",
+  "prev": "b6a5ad0e0bd38c7035f6810110f7189411f825e4",
+  "head": "b39a5427bd3e8c95c211bb8bfcda75aa4dc7fbfb",
   "applied": [
     "depr",
     "indexer",
     "caloToolInfo2",
     "geoConst",
-    "check"
+    "check",
+    "xtalkSpan2",
+    "xtalkSpan4"
   ],
   "unapplied": [
     "cellIDs",
-    "xtalkSpan2",
-    "xtalkSpan4",
     "xtalkSpan6",
     "noise2"
   ],
@@ -33,14 +33,14 @@
     "check": {
       "oid": "993e91aa942b6789c7013b1159c52f5241d19971"
     },
-    "cellIDs": {
-      "oid": "8364c4a652ae30737c7f39dcfd41598620663bdd"
-    },
     "xtalkSpan2": {
-      "oid": "f1b72081d719f1daf7c4d75edba7165d617f4125"
+      "oid": "be5282b62f17a155251fe17dd0ac914fbe1e00b4"
     },
     "xtalkSpan4": {
-      "oid": "5f89aa4ead5deabaab4df5dd0ee6474056a6216e"
+      "oid": "b39a5427bd3e8c95c211bb8bfcda75aa4dc7fbfb"
+    },
+    "cellIDs": {
+      "oid": "8364c4a652ae30737c7f39dcfd41598620663bdd"
     },
     "xtalkSpan6": {
       "oid": "3678c1f94f42b59930b8f99b44aaedfcf97c7bdf"
