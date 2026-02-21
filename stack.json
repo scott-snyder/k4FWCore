@@ -1,9 +1,10 @@
 {
   "version": 5,
-  "prev": "160ee8209ffc4a75eb56f59004070bef5bcf6b43",
-  "head": "41e83237f40107a0ace73e7ae7694a28047490d1",
+  "prev": "e5f11f9898239d8f0fbafa66b630d6fe213511f5",
+  "head": "fdf2f2851b24a47b69ead0f1432b485435fb2378",
   "applied": [
-    "depr"
+    "depr",
+    "indexer"
   ],
   "unapplied": [
     "check",
@@ -19,6 +20,9 @@
   "patches": {
     "depr": {
       "oid": "41e83237f40107a0ace73e7ae7694a28047490d1"
+    },
+    "indexer": {
+      "oid": "fdf2f2851b24a47b69ead0f1432b485435fb2378"
     },
     "check": {
       "oid": "ba1e88c270b4022113e21963a65bb47060dc151f"
