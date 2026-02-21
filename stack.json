@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "b8bb726641517f0bb1688b9ea3b1bf2f9513a349",
-  "head": "b39a5427bd3e8c95c211bb8bfcda75aa4dc7fbfb",
+  "prev": "724c8fe95fa37538895d50ac02d9a282bb513ebe",
+  "head": "fd6affa22784879ec6e3ba7e8d6d0c79fc07964c",
   "applied": [
     "depr",
     "indexer",
@@ -9,7 +9,8 @@
     "geoConst",
     "check",
     "xtalkSpan2",
-    "xtalkSpan4"
+    "xtalkSpan4",
+    "xtalkSpan6"
   ],
   "unapplied": [
     "cellIDs",
@@ -37,6 +38,9 @@
     },
     "xtalkSpan4": {
       "oid": "b39a5427bd3e8c95c211bb8bfcda75aa4dc7fbfb"
+    },
+    "xtalkSpan6": {
+      "oid": "fd6affa22784879ec6e3ba7e8d6d0c79fc07964c"
     },
     "cellIDs": {
       "oid": "8364c4a652ae30737c7f39dcfd41598620663bdd"
