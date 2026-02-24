@@ -1,11 +1,13 @@
 {
   "version": 5,
-  "prev": "3de23da6ae959138c92d33f4dc7d41fb8199fb6e",
-  "head": "43a2bd98a3830fe0393b5f3ffe2c0b4b32a5c785",
+  "prev": "6b7f20ea5942961036130e9e2851a0bd8980afad",
+  "head": "9c751274ec67f4b4e61c68aeac38ce09bd36cda4",
   "applied": [
     "depr",
     "nosystem",
-    "cxx26",
+    "cxx26"
+  ],
+  "unapplied": [
     "indexer",
     "ci",
     "gccbug-newxx",
@@ -17,7 +19,6 @@
     "noise2",
     "check"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
