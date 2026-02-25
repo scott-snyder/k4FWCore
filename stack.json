@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "f5943bd1a5bc858e15b5b1938e07143ab8ff98b1",
+  "prev": "995338bb5d4f190e4bcfd40f1f190d04812166c4",
   "head": "8eb26768ea3aa38c4ccfb5af4a1f4bc67bb4173a",
   "applied": [
     "depr",
@@ -16,10 +16,10 @@
     "noise2",
     "check"
   ],
-  "unapplied": [
+  "unapplied": [],
+  "hidden": [
     "ci"
   ],
-  "hidden": [],
   "patches": {
     "caloToolInfo2": {
       "oid": "008fd8a5d845dfb5fe82567818a86d7377f787db"
