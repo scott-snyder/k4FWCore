@@ -1,11 +1,13 @@
 {
   "version": 5,
-  "prev": "82669c45dabe66a4d46dc6dd5f89d36075ff6eaa",
-  "head": "7895b6664e25148b2bb5639090f343282029d2a9",
+  "prev": "18c091841fab73666ef6e0a9811d4dfa0a07f153",
+  "head": "9052dd44eeac7ac8d3e1aeaa60675f8b1708e552",
   "applied": [
     "depr",
     "nosystem",
-    "cxx26",
+    "cxx26"
+  ],
+  "unapplied": [
     "indexer",
     "gccbug-newxx",
     "caloToolInfo2",
@@ -15,7 +17,6 @@
     "xtalkSpan6",
     "noise2"
   ],
-  "unapplied": [],
   "hidden": [
     "ci"
   ],
