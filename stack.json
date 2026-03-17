@@ -1,15 +1,15 @@
 {
   "version": 5,
-  "prev": "8e096e9f219fcbab2517bd395137c215f3c53dee",
-  "head": "df521e0521e4f4f5fcafa66d00754994027a5c0e",
+  "prev": "d54cd2d21852e407b4d4e0db1cea30bcb2f865c6",
+  "head": "33f6780f3fbb27783e8c0adbfad8840516296245",
   "applied": [
     "depr",
     "nosystem",
     "cxx26",
-    "gccbug-newxx"
+    "gccbug-newxx",
+    "indexer"
   ],
   "unapplied": [
-    "indexer",
     "caloToolInfo2",
     "geoConst",
     "xtalkSpan2",
