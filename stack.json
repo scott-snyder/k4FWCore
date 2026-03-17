@@ -1,9 +1,8 @@
 {
   "version": 5,
-  "prev": "eba3ca7445b9246805d67a31e0003c85f837fa34",
-  "head": "c1a0651abdfe742bd8d73429eab1b01b0e81a694",
-  "applied": [],
-  "unapplied": [
+  "prev": "962e348ef442f9720db2c882e311ffa2f94d2cbd",
+  "head": "66b6f1601479d91d611824d0ac2d07199a8f43ca",
+  "applied": [
     "depr",
     "nosystem",
     "cxx26",
@@ -16,45 +15,46 @@
     "xtalkSpan6",
     "noise2"
   ],
+  "unapplied": [],
   "hidden": [
     "ci"
   ],
   "patches": {
     "caloToolInfo2": {
-      "oid": "071336e18181bc9946448a614ca665b1f296322e"
+      "oid": "1561cf3f85948b87ee19b45194662426401e8585"
     },
     "ci": {
       "oid": "a9b8371a8826b7b5c1dd1831ce7215f5a783e043"
     },
     "cxx26": {
-      "oid": "9052dd44eeac7ac8d3e1aeaa60675f8b1708e552"
+      "oid": "2e764551366b632e3d47aeea3f057cd7f2071e15"
     },
     "depr": {
-      "oid": "a278656e7510c663619ddf326cceabb4deb918b0"
+      "oid": "ed883f684b8e3c975b332c69fcb91ed009c730bb"
     },
     "gccbug-newxx": {
-      "oid": "df521e0521e4f4f5fcafa66d00754994027a5c0e"
+      "oid": "5637797ddc6351c05e9f528a781be6c6c2ef4913"
     },
     "geoConst": {
-      "oid": "3cab4cf1e3ab92c6fa733b5e06b7d95c5fce2600"
+      "oid": "1aedf96920d788ab34aef75f48675d4ddc87e0c2"
     },
     "indexer": {
-      "oid": "e468697709fe1c895534060d500229d252496913"
+      "oid": "6e771f6ce27910facf0555c58ed679e3dd439a8a"
     },
     "noise2": {
-      "oid": "b3fad97fb6f0145b19dadee932743ce977d76de1"
+      "oid": "66b6f1601479d91d611824d0ac2d07199a8f43ca"
     },
     "nosystem": {
-      "oid": "4e853271a83a179e875e9592a86a50e81f6193d1"
+      "oid": "c35e2426f5d0277a767a9b00c0c170783d901e3a"
     },
     "xtalkSpan2": {
-      "oid": "82f562d69dabee9553cecb7417d8adcd349c7019"
+      "oid": "0adc13e0a70821d7d1ed03160b5e88c616486022"
     },
     "xtalkSpan4": {
-      "oid": "b3b9c77a64de753600b8171efb3a3e98989cc113"
+      "oid": "6f6012807123ce899ee1acdad8c2b9d6ade5ce2f"
     },
     "xtalkSpan6": {
-      "oid": "c240d934d9b34c5e3c96b3afb1f4e32495d6d5f9"
+      "oid": "8c7c92756cc1cb9bb5206438891bc843a3a42da8"
     }
   }
 }
