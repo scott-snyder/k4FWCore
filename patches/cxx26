@@ -1,6 +1,0 @@
-Bottom: 42f17f8fe8785f082ef1b0000b1f7b67408b67ff
-Top:    42f17f8fe8785f082ef1b0000b1f7b67408b67ff
-Author: sss <sss@karma>
-Date:   2026-03-17 15:13:31 -0400
-
-Enable compiling with C++26.
