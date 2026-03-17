@@ -1,14 +1,15 @@
 {
   "version": 5,
-  "prev": "e1dde9d4ceb2ccbfd7085cbbbe5550a1fc75c22b",
-  "head": "e08313128172c45ba102f2d915e627d10624cd5d",
+  "prev": "aac688d1402651130414e394dadce5f9719ce40b",
+  "head": "8e350f84aeec27deb89fdd808a1086b78895d352",
   "applied": [
     "depr",
     "nosystem",
     "cxx26",
     "gccbug-newxx",
     "indexer",
-    "include"
+    "include",
+    "refresh-temp"
   ],
   "unapplied": [
     "caloToolInfo2",
@@ -51,6 +52,9 @@
     },
     "nosystem": {
       "oid": "4e853271a83a179e875e9592a86a50e81f6193d1"
+    },
+    "refresh-temp": {
+      "oid": "8e350f84aeec27deb89fdd808a1086b78895d352"
     },
     "xtalkSpan2": {
       "oid": "82f562d69dabee9553cecb7417d8adcd349c7019"
