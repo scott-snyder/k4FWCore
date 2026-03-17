@@ -26,7 +26,6 @@
 
 #include <memory>
 
-
 /** @class ICalorimeterTool RecInterface/RecInterface/ICalorimeterTool.h ICalorimeterTool.h
  *
  *  Abstract interface to calorimeter geometry tool
