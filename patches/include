@@ -1,6 +1,0 @@
-Bottom: 83a1bf2dd342687d6a97b780a7c54d97fc1ef4f2
-Top:    3437e7d1ea49c8e21c857a94cf3effee69b3460a
-Author: sss <sss@karma>
-Date:   2026-03-17 14:11:15 -0400
-
-Fix placement of <memory> include.
