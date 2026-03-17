@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "2cd88a2ee51a229e6b66a732a7bfa79173de18d0",
+  "prev": "8baa18a025773b29c977240e42e9bf8668cab13a",
   "head": "5c26763349f18bad9be83f5c64822b77f3bd46a7",
   "applied": [
     "depr"
   ],
   "unapplied": [
-    "indexer",
     "caloToolInfo2",
     "geoConst",
     "xtalkSpan2",
@@ -18,9 +17,6 @@
   "patches": {
     "depr": {
       "oid": "5c26763349f18bad9be83f5c64822b77f3bd46a7"
-    },
-    "indexer": {
-      "oid": "009fba6ac6182ba356c90b43f382eb61e64fdf38"
     },
     "caloToolInfo2": {
       "oid": "a9740500fcb6114b00a69c38ed7e21cb22c50e33"
