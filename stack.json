@@ -1,10 +1,11 @@
 {
   "version": 5,
-  "prev": "03ac87b2a272aeb3e127ba04ef62f4728a92b42a",
-  "head": "c1a0651abdfe742bd8d73429eab1b01b0e81a694",
-  "applied": [],
+  "prev": "2cd88a2ee51a229e6b66a732a7bfa79173de18d0",
+  "head": "5c26763349f18bad9be83f5c64822b77f3bd46a7",
+  "applied": [
+    "depr"
+  ],
   "unapplied": [
-    "depr",
     "indexer",
     "caloToolInfo2",
     "geoConst",
