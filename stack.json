@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "082cc0db3c89f1145af36eb76781f6b70ef732b5",
-  "head": "ba2a9eba37f50e0a58769d19ba2f5a04d303a8e3",
+  "prev": "f81ae32bc68d38e44329b039861e3671ef29184e",
+  "head": "164fa845f7dd55138ea2b4563bbd7bc3a639a562",
   "applied": [
     "depr",
     "nosystem",
@@ -9,11 +9,11 @@
     "xtalkSpan2",
     "caloToolInfo2",
     "geoConst",
-    "xtalkSpan4"
+    "xtalkSpan4",
+    "xtalkSpan6"
   ],
   "unapplied": [
-    "ci",
-    "xtalkSpan6"
+    "ci"
   ],
   "hidden": [],
   "patches": {
@@ -42,7 +42,7 @@
       "oid": "ba2a9eba37f50e0a58769d19ba2f5a04d303a8e3"
     },
     "xtalkSpan6": {
-      "oid": "1723f678cd37c225527c74e79de6046787cf79c9"
+      "oid": "164fa845f7dd55138ea2b4563bbd7bc3a639a562"
     }
   }
 }
