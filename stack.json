@@ -1,18 +1,18 @@
 {
   "version": 5,
-  "prev": "f81ae32bc68d38e44329b039861e3671ef29184e",
-  "head": "164fa845f7dd55138ea2b4563bbd7bc3a639a562",
+  "prev": "287655cfe2359e0e1f3e8114f9d48dc0aa81f89b",
+  "head": "7e00227bb5ad3918136541354113c93a7c5a1725",
   "applied": [
     "depr",
     "nosystem",
-    "gccbug-newxx",
+    "gccbug-newxx"
+  ],
+  "unapplied": [
     "xtalkSpan2",
     "caloToolInfo2",
     "geoConst",
     "xtalkSpan4",
-    "xtalkSpan6"
-  ],
-  "unapplied": [
+    "xtalkSpan6",
     "ci"
   ],
   "hidden": [],
