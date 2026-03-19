@@ -1,11 +1,12 @@
 {
   "version": 5,
-  "prev": "e7e0fabecc52f68f85bf9e7065899f7e3c712dfd",
-  "head": "eef89d3e35b94cca0adc30f9afcaa6ae8bc2fd46",
+  "prev": "ea84276c9912541800a66eac08fd378e7c7ad0ea",
+  "head": "18bf8d8db2c08561210397e600f76bf5d3454733",
   "applied": [
     "depr",
     "nosystem",
-    "gccbug-newxx"
+    "gccbug-newxx",
+    "noise2"
   ],
   "unapplied": [
     "xtalkSpan2",
@@ -14,8 +15,7 @@
     "caloToolInfo2",
     "geoConst",
     "xtalkSpan4",
-    "xtalkSpan6",
-    "noise2"
+    "xtalkSpan6"
   ],
   "hidden": [],
   "patches": {
@@ -38,7 +38,7 @@
       "oid": "a08ab7353768947c8dbf074805b18ffb6c1b38e7"
     },
     "noise2": {
-      "oid": "63a8eeb021d2f81ee27ad7d6dc1fd992e98e3b30"
+      "oid": "18bf8d8db2c08561210397e600f76bf5d3454733"
     },
     "nosystem": {
       "oid": "c35e2426f5d0277a767a9b00c0c170783d901e3a"
