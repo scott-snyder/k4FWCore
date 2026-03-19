@@ -1,13 +1,14 @@
 {
   "version": 5,
-  "prev": "9c371ebbdccc2e21e52eb05a62ab7a00d8948e7f",
-  "head": "bec77859f1632552e581fc948e6364d05d936b45",
+  "prev": "81ca7cd257ef1d7b5d9a472e761117a0391d51fd",
+  "head": "4cd0dc0a6c81b4b53ba9d52ea70be20dd14642cc",
   "applied": [
     "depr",
     "caloToolInfo2",
     "geoConst",
     "xtalkSpan2",
-    "xtalkSpan4"
+    "xtalkSpan4",
+    "xtalkSpan6"
   ],
   "unapplied": [
     "noise2"
@@ -28,6 +29,9 @@
     },
     "xtalkSpan4": {
       "oid": "bec77859f1632552e581fc948e6364d05d936b45"
+    },
+    "xtalkSpan6": {
+      "oid": "4cd0dc0a6c81b4b53ba9d52ea70be20dd14642cc"
     },
     "noise2": {
       "oid": "5930aea210cfe54f4129c223af96a8e8d03579b7"
