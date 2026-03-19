@@ -1,13 +1,14 @@
 {
   "version": 5,
-  "prev": "efbffdec836f7dd04606bf9e87c1a03aefcf67f8",
-  "head": "d2f84013e6f2bd82042cd45ca303dc225792e9da",
-  "applied": [],
-  "unapplied": [
+  "prev": "02a10aa5a63996ceb0f14198d3f126919f35921f",
+  "head": "813272a15aeb9423b2c897c413d5c59f344ab0e6",
+  "applied": [
     "depr",
     "indexer",
     "caloToolInfo2",
-    "geoConst",
+    "geoConst"
+  ],
+  "unapplied": [
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6",
@@ -16,16 +17,16 @@
   "hidden": [],
   "patches": {
     "depr": {
-      "oid": "5c26763349f18bad9be83f5c64822b77f3bd46a7"
+      "oid": "db8a6435a1124692065b8b64f88fb5bb838c72fb"
     },
     "indexer": {
-      "oid": "3d8a20bc0a59784a5fa72359d2cf2f431035ee1d"
+      "oid": "ef88b43aa480a03460ea6bd761c4286a8a5abd91"
     },
     "caloToolInfo2": {
-      "oid": "0b46adc78f42a0848dd6c01ab0b71c4fb4943f49"
+      "oid": "f1a25251a416877f20465a616cbc8d91d9d2d5d4"
     },
     "geoConst": {
-      "oid": "31b3d5fe36d2cb8aac4ff4f90886ae5c18f38e17"
+      "oid": "813272a15aeb9423b2c897c413d5c59f344ab0e6"
     },
     "xtalkSpan2": {
       "oid": "2b0cf786a4d4b81ad3e6a1a722eb98b6b9a38ab7"
