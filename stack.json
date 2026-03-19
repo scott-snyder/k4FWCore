@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "e547ccd80de683d131436ca26af08871cd3eaeb1",
+  "prev": "dd16cae61dc91eaa5b7a3b3d9ff17292bfc83de3",
   "head": "8e3849a8b0aef16d939950d1c4ae2586b00afccb",
   "applied": [
     "depr",
@@ -8,9 +8,6 @@
     "geoConst"
   ],
   "unapplied": [
-    "xtalkSpan2",
-    "xtalkSpan4",
-    "xtalkSpan6",
     "noise2"
   ],
   "hidden": [],
@@ -23,15 +20,6 @@
     },
     "geoConst": {
       "oid": "8e3849a8b0aef16d939950d1c4ae2586b00afccb"
-    },
-    "xtalkSpan2": {
-      "oid": "2b0cf786a4d4b81ad3e6a1a722eb98b6b9a38ab7"
-    },
-    "xtalkSpan4": {
-      "oid": "7c5ada50fc7460c4246c6bfc2e3a53e8d45bad34"
-    },
-    "xtalkSpan6": {
-      "oid": "8a1ab776c1175c116467992a2927f53a6295a86f"
     },
     "noise2": {
       "oid": "5930aea210cfe54f4129c223af96a8e8d03579b7"
