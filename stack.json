@@ -1,17 +1,16 @@
 {
   "version": 5,
-  "prev": "fd3f5c63d4c0c6bf0b8278272097dffea49bffe5",
-  "head": "db8a6435a1124692065b8b64f88fb5bb838c72fb",
+  "prev": "4d9e405bd1b12c39fa711a8cf9a223d86503abc7",
+  "head": "4cd0dc0a6c81b4b53ba9d52ea70be20dd14642cc",
   "applied": [
-    "depr"
-  ],
-  "unapplied": [
+    "depr",
     "caloToolInfo2",
     "geoConst",
     "xtalkSpan2",
     "xtalkSpan4",
     "xtalkSpan6"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "depr": {
