@@ -1,19 +1,20 @@
 {
   "version": 5,
-  "prev": "ae89a3c2b5dd5fe95650797c4802a9f6e822bc8a",
-  "head": "73fb5f57d6af0d139535e739b2bc3cf3a3edab90",
+  "prev": "d0543e7d90182bada62d36a46736b47a4c38ac43",
+  "head": "82c687f3428f2eb4cd2fc37ddc8337692285f6d6",
   "applied": [
     "depr",
     "nosystem",
     "gccbug-newxx",
     "caloToolInfo2",
-    "ci",
     "xtalkSpan2",
     "geoConst",
     "xtalkSpan4",
     "xtalkSpan6"
   ],
-  "unapplied": [],
+  "unapplied": [
+    "ci"
+  ],
   "hidden": [],
   "patches": {
     "caloToolInfo2": {
@@ -29,19 +30,19 @@
       "oid": "e1e1381083b7a559ca6e31ea311bf30f6b21d764"
     },
     "geoConst": {
-      "oid": "58d6ec8765ba86549af9ffb94a18a749b1e68932"
+      "oid": "d8fa7e1262225e14573170d4335cac0ba9cd376e"
     },
     "nosystem": {
       "oid": "a25dedb76ed452862bdf8fde71761fdaeb4d5b16"
     },
     "xtalkSpan2": {
-      "oid": "49a0aa6dc779012b8f3c7d85f4e807d25d21258c"
+      "oid": "5a4cabb8f7bcc7642fef227086362866e0c1243d"
     },
     "xtalkSpan4": {
-      "oid": "7bd7be3e692e1c8bf49673eae430cc1ddc5b9f79"
+      "oid": "f821fb82b1bbe8a73dc04dfcf13670d4933f972d"
     },
     "xtalkSpan6": {
-      "oid": "73fb5f57d6af0d139535e739b2bc3cf3a3edab90"
+      "oid": "82c687f3428f2eb4cd2fc37ddc8337692285f6d6"
     }
   }
 }
