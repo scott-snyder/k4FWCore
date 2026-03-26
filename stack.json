@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "bf01f4c64d3791b5cb11688a6e05d408ec73323d",
+  "prev": "5f79b1280b20f7d50a3271135916a3ba0b50488c",
   "head": "e1e1381083b7a559ca6e31ea311bf30f6b21d764",
   "applied": [
     "depr",
@@ -12,10 +12,11 @@
     "xtalkSpan2",
     "geoConst",
     "xtalkSpan4",
-    "xtalkSpan6",
+    "xtalkSpan6"
+  ],
+  "hidden": [
     "ci"
   ],
-  "hidden": [],
   "patches": {
     "caloToolInfo2": {
       "oid": "d6dc66ee96db413eaa1d43e0557a591099055170"
