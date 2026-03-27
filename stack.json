@@ -1,11 +1,12 @@
 {
   "version": 5,
-  "prev": "3f6a07f60163c3b63c534d56931db223d7f64dee",
-  "head": "e1e1381083b7a559ca6e31ea311bf30f6b21d764",
+  "prev": "551b648b8a50dfbb352763f6518f2fa5c0d8d1c6",
+  "head": "2411e0e0dfa1fe623a24e2687ed4985da8854c6e",
   "applied": [
     "depr",
     "nosystem",
-    "gccbug-newxx"
+    "gccbug-newxx",
+    "caloiface"
   ],
   "unapplied": [
     "caloToolInfo2",
@@ -20,6 +21,9 @@
   "patches": {
     "caloToolInfo2": {
       "oid": "d6dc66ee96db413eaa1d43e0557a591099055170"
+    },
+    "caloiface": {
+      "oid": "2411e0e0dfa1fe623a24e2687ed4985da8854c6e"
     },
     "ci": {
       "oid": "1c579ac13f1e029d5afd7974aa290abbe2c4f662"
