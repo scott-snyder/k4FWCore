@@ -1,14 +1,10 @@
 {
   "version": 5,
-  "prev": "25c3b5ec590f1f208ac811a65992ec34a5295e91",
-  "head": "784ff0649f0589776bb3dbcb8fd3f1bbade08838",
+  "prev": "0d889c8e2ffaa6ec1b8278af11ee54e52c7fff33",
+  "head": "2c969e8efc65c4a28fd128da6c104b0080da427c",
   "applied": [
     "depr",
-    "caloToolInfo2",
-    "geoConst",
-    "xtalkSpan2",
-    "xtalkSpan4",
-    "xtalkSpan6"
+    "geoConst"
   ],
   "unapplied": [],
   "hidden": [],
@@ -16,20 +12,8 @@
     "depr": {
       "oid": "30e08cd590c79a731d10d6fbb2d3dc851f3e9c4a"
     },
-    "caloToolInfo2": {
-      "oid": "89232ddfe32b4754caf57335c67385316d83bba7"
-    },
     "geoConst": {
-      "oid": "101920e96f041d4221ff2afe9c1dbde9be334ba6"
-    },
-    "xtalkSpan2": {
-      "oid": "cdf74b562640e16963f53aca0b40d67854620e4b"
-    },
-    "xtalkSpan4": {
-      "oid": "7ab439a5f47bb8d74cc82790e3ad274c5a9c32d2"
-    },
-    "xtalkSpan6": {
-      "oid": "784ff0649f0589776bb3dbcb8fd3f1bbade08838"
+      "oid": "2c969e8efc65c4a28fd128da6c104b0080da427c"
     }
   }
 }
