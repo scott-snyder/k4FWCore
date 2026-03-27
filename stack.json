@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "e3465996573e1820cdc3339b5bd374b13e4868df",
+  "prev": "d93945c484027e5e5bdab738d0354a581ca2f918",
   "head": "a80f8cac70ded4f1421d00862058521cf701d161",
   "applied": [
     "depr",
@@ -9,19 +9,11 @@
     "caloiface",
     "geoConst"
   ],
-  "unapplied": [
-    "caloToolInfo2",
-    "xtalkSpan2",
-    "xtalkSpan4",
-    "xtalkSpan6"
-  ],
+  "unapplied": [],
   "hidden": [
     "ci"
   ],
   "patches": {
-    "caloToolInfo2": {
-      "oid": "d6dc66ee96db413eaa1d43e0557a591099055170"
-    },
     "caloiface": {
       "oid": "4ec6179420936ba5298feb003311a336d2504562"
     },
@@ -39,15 +31,6 @@
     },
     "nosystem": {
       "oid": "a25dedb76ed452862bdf8fde71761fdaeb4d5b16"
-    },
-    "xtalkSpan2": {
-      "oid": "5a4cabb8f7bcc7642fef227086362866e0c1243d"
-    },
-    "xtalkSpan4": {
-      "oid": "f821fb82b1bbe8a73dc04dfcf13670d4933f972d"
-    },
-    "xtalkSpan6": {
-      "oid": "82c687f3428f2eb4cd2fc37ddc8337692285f6d6"
     }
   }
 }
