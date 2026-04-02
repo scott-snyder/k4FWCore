@@ -1,13 +1,14 @@
 {
   "version": 5,
-  "prev": "c00f987bdf1939b925106b22e0e89f999059bc7b",
-  "head": "c093b19c8425db3daee3edc3fcd2213040f617a3",
-  "applied": [],
-  "unapplied": [
+  "prev": "ba739367c1263af8f5695d0f1d587ee694c71755",
+  "head": "ee18628dd3e6a6c64b31aaa4caaa9c9367956bad",
+  "applied": [
     "depr",
     "nosystem",
     "gccbug-newxx",
-    "caloiface",
+    "caloiface"
+  ],
+  "unapplied": [
     "geoConst"
   ],
   "hidden": [
@@ -15,22 +16,22 @@
   ],
   "patches": {
     "caloiface": {
-      "oid": "4ec6179420936ba5298feb003311a336d2504562"
+      "oid": "ee18628dd3e6a6c64b31aaa4caaa9c9367956bad"
     },
     "ci": {
       "oid": "1c579ac13f1e029d5afd7974aa290abbe2c4f662"
     },
     "depr": {
-      "oid": "2e055f9bb33efc0da0346732eaa26b5d7b5186c5"
+      "oid": "2135de695190e0457ca3e5002184a9db086726bf"
     },
     "gccbug-newxx": {
-      "oid": "e1e1381083b7a559ca6e31ea311bf30f6b21d764"
+      "oid": "c589e3aa9991ed3b759994835f824c515b115104"
     },
     "geoConst": {
       "oid": "a80f8cac70ded4f1421d00862058521cf701d161"
     },
     "nosystem": {
-      "oid": "a25dedb76ed452862bdf8fde71761fdaeb4d5b16"
+      "oid": "a2c6336fa5dc1a546296b705abb96b31a0a0938b"
     }
   }
 }

@@ -1,6 +1,6 @@
-Bottom: a3e957c3e1be14db0f7fd7950751bd51fd5ec228
-Top:    8721c9ef24a866e07415b99a117a900879e11c4e
+Bottom: c0a2f957c40122643293b40574d6e28d352bc642
+Top:    c0a2f957c40122643293b40574d6e28d352bc642
 Author: sss <sss@karma>
-Date:   2026-03-27 15:09:53 -0400
+Date:   2026-04-02 18:06:31 -0400
 
 Remove calorimeter interfaces moved to k4RecCalorimeter.
