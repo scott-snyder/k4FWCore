@@ -1,13 +1,12 @@
 {
   "version": 5,
-  "prev": "d9bb3bd72e3792faf96401f46e684d9e9b37b2ee",
-  "head": "e1e1381083b7a559ca6e31ea311bf30f6b21d764",
-  "applied": [
+  "prev": "f4c6f076470faca96b0c2497df41ad7a3ba04192",
+  "head": "4762f6a65ae36fc044ff06b7c91fa9a326ce055d",
+  "applied": [],
+  "unapplied": [
     "depr",
     "nosystem",
-    "gccbug-newxx"
-  ],
-  "unapplied": [
+    "gccbug-newxx",
     "caloiface",
     "geoConst"
   ],
