@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "9a398773dc82a54881abf2b63b1e83b59724aaed",
+  "prev": "2248ec2033aa5e1468457b32955711301ec5a1f5",
   "head": "4b82af43a41cf497be470fa7896d301fb81f3a7b",
   "applied": [
     "depr",
@@ -9,11 +9,10 @@
     "caloiface"
   ],
   "unapplied": [
-    "geoConst"
-  ],
-  "hidden": [
+    "geoConst",
     "ci"
   ],
+  "hidden": [],
   "patches": {
     "caloiface": {
       "oid": "4b82af43a41cf497be470fa7896d301fb81f3a7b"
