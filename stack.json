@@ -1,14 +1,15 @@
 {
   "version": 5,
-  "prev": "676cff371294080aefb446978c31066b1a46a8da",
-  "head": "0eb9b92cd16e1a7863ab65b0d13dadfeb6e1c61b",
+  "prev": "1f2e279e0352a7a3967c1eee850ce90ff85016c8",
+  "head": "a04c2a4586040ca4b1844f918e5da33fb58ee0e8",
   "applied": [
     "depr",
     "nosystem",
-    "gccbug-newxx",
+    "gccbug-newxx"
+  ],
+  "unapplied": [
     "geoConst"
   ],
-  "unapplied": [],
   "hidden": [
     "ci"
   ],
