@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "cba55287781702f0659e4c41893939de04123f6a",
-  "head": "812a6ba967ba324bb775b84dbedb7da4390055f0",
+  "prev": "676cff371294080aefb446978c31066b1a46a8da",
+  "head": "0eb9b92cd16e1a7863ab65b0d13dadfeb6e1c61b",
   "applied": [
     "depr",
     "nosystem",
     "gccbug-newxx",
-    "caloiface",
     "geoConst"
   ],
   "unapplied": [],
@@ -14,9 +13,6 @@
     "ci"
   ],
   "patches": {
-    "caloiface": {
-      "oid": "6aae3bc7c7fb3f47c2272e11fbbff21337161a2b"
-    },
     "ci": {
       "oid": "7d45d679a79967ca540030b45e2e5161423867a9"
     },
@@ -27,7 +23,7 @@
       "oid": "a04c2a4586040ca4b1844f918e5da33fb58ee0e8"
     },
     "geoConst": {
-      "oid": "812a6ba967ba324bb775b84dbedb7da4390055f0"
+      "oid": "0eb9b92cd16e1a7863ab65b0d13dadfeb6e1c61b"
     },
     "nosystem": {
       "oid": "03075c56a0ec565795cf092aed3ff858e5eda3f4"
