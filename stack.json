@@ -1,14 +1,15 @@
 {
   "version": 5,
-  "prev": "927e09350ea1543be0b6c50f4190d228b5beb907",
-  "head": "685acc13e9c59c2d1ad4803199ef572059ead34d",
+  "prev": "d6ae53b90133cae574dda9652594663fa7d2dc11",
+  "head": "d7113aec03e608b895aa544633d1af184c59f6cc",
   "applied": [
-    "depr",
     "nosystem",
     "gccbug-newxx",
     "geoConst"
   ],
-  "unapplied": [],
+  "unapplied": [
+    "depr"
+  ],
   "hidden": [
     "ci"
   ],
@@ -20,13 +21,13 @@
       "oid": "aa8a106946533dc8504bd1f5db962e45199d2556"
     },
     "gccbug-newxx": {
-      "oid": "23178768f6875c7eacc6cdbb94a074a17afdb96e"
+      "oid": "b6bfc6dde64ea891db5943a95a86271651418a58"
     },
     "geoConst": {
-      "oid": "685acc13e9c59c2d1ad4803199ef572059ead34d"
+      "oid": "d7113aec03e608b895aa544633d1af184c59f6cc"
     },
     "nosystem": {
-      "oid": "1697dbcf123dfb5656e6ed05640af5dd2725784d"
+      "oid": "4bc7292741e26af963b8320e63c4967ab4d759a6"
     }
   }
 }
