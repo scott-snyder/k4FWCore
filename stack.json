@@ -1,14 +1,13 @@
 {
   "version": 5,
-  "prev": "88a2519d7da97dd0b9b5053abaddf167cb910d2b",
-  "head": "c6eddc77d989547bcff7abb28e0c88752a92d84f",
+  "prev": "6bc2bd2a1f74ff4ebf24849cea987d8aea87b38e",
+  "head": "3d36330077ee8d669f9216a99cd42303ba15c91c",
   "applied": [
     "nosystem",
     "gccbug-newxx",
     "depr",
     "stdfmt",
-    "include",
-    "refresh-temp"
+    "include"
   ],
   "unapplied": [
     "geoConst"
@@ -30,13 +29,10 @@
       "oid": "6a2324c13af8d1dd96b74a82fc1972bf855062b9"
     },
     "include": {
-      "oid": "474e1d6deedeba2a72ccefb4304c5694496b331f"
+      "oid": "3d36330077ee8d669f9216a99cd42303ba15c91c"
     },
     "nosystem": {
       "oid": "44a2874e47d6edf3ba6a7e1944af72d1afcf5307"
-    },
-    "refresh-temp": {
-      "oid": "c6eddc77d989547bcff7abb28e0c88752a92d84f"
     },
     "stdfmt": {
       "oid": "4ed439c6849bb732037aef53db09cba7e82a7964"
