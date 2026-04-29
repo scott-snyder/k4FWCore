@@ -31,6 +31,7 @@
 
 #include "k4FWCore/Transformer.h"
 #include "k4Interface/IUniqueIDGenSvc.h"
+#include "fmt/format.h"
 
 #include <fmt/format.h>
 
