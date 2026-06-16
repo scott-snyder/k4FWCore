@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "0419d32d70057abf51c8467d4732eae3001ed685",
-  "head": "db18116cf0ba3d9c7c59ca7ba3625dba6c327f41",
+  "prev": "4740b833a923bdb25cf6ef797e99ec4a632e3fa5",
+  "head": "25a6ac3ee8738b7804ce97ad3d32b24ca0bb1745",
   "applied": [
     "nosystem",
     "gccbug-newxx",
-    "depr",
-    "refresh-temp"
+    "depr"
   ],
   "unapplied": [
     "include",
@@ -21,7 +20,7 @@
       "oid": "7d45d679a79967ca540030b45e2e5161423867a9"
     },
     "depr": {
-      "oid": "d2ace078e25b84fbffeb44262d5d9203ca4702ef"
+      "oid": "25a6ac3ee8738b7804ce97ad3d32b24ca0bb1745"
     },
     "gccbug-newxx": {
       "oid": "c0ce05eb8e47589f5829bc7c2c52f67f8fd64b87"
@@ -34,9 +33,6 @@
     },
     "nosystem": {
       "oid": "59149539c72e7a3545fd1a574f46e73a9798786d"
-    },
-    "refresh-temp": {
-      "oid": "db18116cf0ba3d9c7c59ca7ba3625dba6c327f41"
     },
     "stdfmt": {
       "oid": "cf4665e4f80a01e9e3881233f875916050c3b98f"
