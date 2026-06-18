@@ -1,16 +1,17 @@
 {
   "version": 5,
-  "prev": "e22acac357df9889c0b98990a76570d5e37e2146",
-  "head": "541f1931c7a2aff56647953d1344bd76f21f9950",
+  "prev": "7bc1ed9f3c44e3ca1462444bcedf99102ab0f007",
+  "head": "d3d3594e1b12500b8ef7f8174b5b6d19a8632438",
   "applied": [
     "nosystem",
     "gccbug-newxx",
     "depr",
     "include",
-    "stdfmt",
+    "stdfmt"
+  ],
+  "unapplied": [
     "geoConst"
   ],
-  "unapplied": [],
   "hidden": [
     "ci"
   ],
