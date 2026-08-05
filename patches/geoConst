@@ -1,7 +1,7 @@
-Bottom: c6759a3623c5ccd0668c17b3d5cd440191bad58f
-Top:    06085bbb2a1d6bed0c9f9c6148eb1ecb40986c97
+Bottom: 19731497c5225dcc21d21bbb15742ad38d75a8a9
+Top:    d088ccf0a343bfd30931037388938c0ce5fbd759
 Author: sss <sss@karma>
-Date:   2026-07-08 13:13:36 -0400
+Date:   2026-08-05 11:59:34 -0400
 
 Make some geometry methods const.
 
