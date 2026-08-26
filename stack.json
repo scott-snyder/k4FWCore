@@ -1,19 +1,19 @@
 {
   "version": 5,
-  "prev": "c17e1c87e5dc8be331360605c0aedf299f388748",
-  "head": "eebcb6aef56d62d8f6d4fd6eb69ffa65a616a02c",
-  "applied": [],
-  "unapplied": [
+  "prev": "10021143f120a4b404d4e79ce155456860cfebb8",
+  "head": "52529bbcdaf4bd19710628de051cf2ffc9ad6027",
+  "applied": [
     "depr",
     "geoConst"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "depr": {
-      "oid": "775ec8d3462590dfc1572c093441e8cc0ecb5310"
+      "oid": "e8d22715b16466603f505d9a359ed89e83d11705"
     },
     "geoConst": {
-      "oid": "a8c531090330e0014da263474b358196c1b0fad6"
+      "oid": "52529bbcdaf4bd19710628de051cf2ffc9ad6027"
     }
   }
 }
