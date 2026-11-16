@@ -1,14 +1,13 @@
 {
   "version": 5,
-  "prev": "91e8b6a27694dba6016ad19e688b5af5acc1d85d",
-  "head": "8d626d9f97c25d614b3b5381491520b83610e6cd",
+  "prev": "167890caac3824dc40dbd32f7bbb65f1d84de709",
+  "head": "f8fefa0c2ddc1273117954e2cfb6b50c81062318",
   "applied": [
     "nosystem",
     "gccbug-newxx",
     "depr",
     "include",
-    "stdfmt",
-    "refresh-temp"
+    "stdfmt"
   ],
   "unapplied": [
     "geoConst"
@@ -35,11 +34,8 @@
     "nosystem": {
       "oid": "81e66285d44af6316bd26c97a3545c9240e3a77a"
     },
-    "refresh-temp": {
-      "oid": "8d626d9f97c25d614b3b5381491520b83610e6cd"
-    },
     "stdfmt": {
-      "oid": "e5f4aa50e795f18e7a211cf961f51debe9faa6e1"
+      "oid": "f8fefa0c2ddc1273117954e2cfb6b50c81062318"
     }
   }
 }
