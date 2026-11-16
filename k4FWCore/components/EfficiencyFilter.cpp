@@ -31,7 +31,7 @@
 
 #include "k4FWCore/Transformer.h"
 #include "k4Interface/IUniqueIDGenSvc.h"
-#include "fmt/format.h"
+#include <format>
 
 #include <fmt/format.h>
 
@@ -89,7 +89,7 @@ struct EfficiencyFilter final : k4FWCore::Transformer<podio::CollectionBase*(con
     using AllTypes = typename ConcatTypeLists<edm4hep::edm4hepDataTypes, edm4hep::edm4hepLinkTypes>::type;
     auto ptr = dispatchByType(coll, uid, AllTypes{});
     if (!ptr) {
-      throw std::runtime_error(fmt::format(
+      throw std::runtime_error(std::format(
           "EfficiencyFilter: No createSubsetCollection function found for collection type '{}'", coll.getTypeName()));
     }
     return ptr;
